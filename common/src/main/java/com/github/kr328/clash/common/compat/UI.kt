@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.github.kr328.clash.common.compat
+package com.android.system.update.common.compat
 
 import android.annotation.TargetApi
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.preference
+package com.android.system.update.design.preference
 
 interface NullableTextAdapter<T> {
     fun from(value: T): String?

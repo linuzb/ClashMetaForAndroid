@@ -1,11 +1,11 @@
 @file:UseSerializers(DateSerializer::class)
 
-package com.github.kr328.clash.core.model
+package com.android.system.update.core.model
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.github.kr328.clash.core.util.DateSerializer
-import com.github.kr328.clash.core.util.Parcelizer
+import com.android.system.update.core.util.DateSerializer
+import com.android.system.update.core.util.Parcelizer
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.UseSerializers

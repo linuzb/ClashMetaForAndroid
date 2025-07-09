@@ -1,4 +1,4 @@
-package com.github.kr328.clash.core.model
+package com.android.system.update.core.model
 
 enum class ProxySort {
     Default, Title, Delay

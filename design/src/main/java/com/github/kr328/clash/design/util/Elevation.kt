@@ -1,10 +1,10 @@
-package com.github.kr328.clash.design.util
+package com.android.system.update.design.util
 
 import android.animation.ValueAnimator
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.view.ActivityBarLayout
-import com.github.kr328.clash.design.view.ObservableScrollView
+import com.android.system.update.design.R
+import com.android.system.update.design.view.ActivityBarLayout
+import com.android.system.update.design.view.ObservableScrollView
 
 private class AppBarElevationController(
     private val activityBar: ActivityBarLayout

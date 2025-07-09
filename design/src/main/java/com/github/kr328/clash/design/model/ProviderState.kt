@@ -1,9 +1,9 @@
-package com.github.kr328.clash.design.model
+package com.android.system.update.design.model
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import com.github.kr328.clash.core.model.Provider
-import com.github.kr328.clash.design.BR
+import com.android.system.update.core.model.Provider
+import com.android.system.update.design.BR
 
 class ProviderState(
     val provider: Provider,

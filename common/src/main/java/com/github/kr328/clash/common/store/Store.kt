@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common.store
+package com.android.system.update.common.store
 
 import kotlin.reflect.KProperty
 

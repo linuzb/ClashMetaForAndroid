@@ -1,8 +1,8 @@
-package com.github.kr328.clash.core
+package com.android.system.update.core
 
-import com.github.kr328.clash.core.bridge.*
-import com.github.kr328.clash.core.model.*
-import com.github.kr328.clash.core.util.parseInetSocketAddress
+import com.android.system.update.core.bridge.*
+import com.android.system.update.core.model.*
+import com.android.system.update.core.util.parseInetSocketAddress
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.core.bridge
+package com.android.system.update.core.bridge
 
 import androidx.annotation.Keep
 

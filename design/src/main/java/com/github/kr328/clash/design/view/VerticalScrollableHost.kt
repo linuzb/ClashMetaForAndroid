@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.view
+package com.android.system.update.design.view
 
 import android.content.Context
 import android.util.AttributeSet

@@ -1,8 +1,8 @@
-package com.github.kr328.clash.design.util
+package com.android.system.update.design.util
 
-import com.github.kr328.clash.design.Design
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.ui.ToastDuration
+import com.android.system.update.design.Design
+import com.android.system.update.design.R
+import com.android.system.update.design.ui.ToastDuration
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 suspend fun Design<*>.showExceptionToast(message: CharSequence) {

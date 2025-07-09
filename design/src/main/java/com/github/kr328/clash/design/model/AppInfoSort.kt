@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.model
+package com.android.system.update.design.model
 
 enum class AppInfoSort(comparator: Comparator<AppInfo>) : Comparator<AppInfo> by comparator {
     Label(compareBy(AppInfo::label)),

@@ -1,8 +1,8 @@
-package com.github.kr328.clash.core.bridge
+package com.android.system.update.core.bridge
 
 import android.net.Uri
 import androidx.annotation.Keep
-import com.github.kr328.clash.common.Global
+import com.android.system.update.common.Global
 import java.io.FileNotFoundException
 
 @Keep

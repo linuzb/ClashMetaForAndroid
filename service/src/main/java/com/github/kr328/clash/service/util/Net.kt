@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service.util
+package com.android.system.update.service.util
 
 data class IPNet(val ip: String, val prefix: Int)
 

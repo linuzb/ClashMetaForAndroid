@@ -1,11 +1,11 @@
-package com.github.kr328.clash.service
+package com.android.system.update.service
 
 import android.content.ContentProvider
 import android.content.ContentValues
 import android.database.Cursor
 import android.net.Uri
 import android.os.Bundle
-import com.github.kr328.clash.common.Global
+import com.android.system.update.common.Global
 
 class StatusProvider : ContentProvider() {
     override fun call(method: String, arg: String?, extras: Bundle?): Bundle? {

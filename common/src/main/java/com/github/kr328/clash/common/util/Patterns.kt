@@ -1,3 +1,3 @@
-package com.github.kr328.clash.common.util
+package com.android.system.update.common.util
 
 val PatternFileName = Regex("[^*&%\\n\\r/]+")

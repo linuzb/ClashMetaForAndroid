@@ -1,15 +1,15 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.content.Context
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.github.kr328.clash.core.model.TunnelState
-import com.github.kr328.clash.core.util.trafficTotal
-import com.github.kr328.clash.design.databinding.DesignAboutBinding
-import com.github.kr328.clash.design.databinding.DesignMainBinding
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.resolveThemedColor
-import com.github.kr328.clash.design.util.root
+import com.android.system.update.core.model.TunnelState
+import com.android.system.update.core.util.trafficTotal
+import com.android.system.update.design.databinding.DesignAboutBinding
+import com.android.system.update.design.databinding.DesignMainBinding
+import com.android.system.update.design.util.layoutInflater
+import com.android.system.update.design.util.resolveThemedColor
+import com.android.system.update.design.util.root
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

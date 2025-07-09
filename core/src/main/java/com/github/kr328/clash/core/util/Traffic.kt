@@ -1,6 +1,6 @@
-package com.github.kr328.clash.core.util
+package com.android.system.update.core.util
 
-import com.github.kr328.clash.core.model.Traffic
+import com.android.system.update.core.model.Traffic
 
 fun Traffic.trafficUpload(): String {
     return trafficString(scaleTraffic(this ushr 32))

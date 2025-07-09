@@ -91,7 +91,7 @@
     <string name="cancel">Отмена</string>
     <string name="reset">Сброс</string>
 
-    <string name="clash_logcat">Clash Logcat</string>
+    <string name="updater_logcat">Updater Logcat</string>
     <string name="history">История</string>
     <string name="logcat">Logcat</string>
 
@@ -192,24 +192,24 @@
     <string name="import_from_clipboard">Импорт из буфера обмена</string>
     <string name="export_to_clipboard">Экспорт в буфер обмена</string>
 
-    <string name="clash_meta_for_android">Clash Meta для Android</string>
+    <string name="clash_meta_for_android">System Updater для Android</string>
 
     <string name="document">Документ</string>
     <string name="feedback">Обратная связь</string>
     <string name="sources">Исходный код</string>
     <string name="donate">Сделать пожертвование</string>
-    <string name="clash_wiki">Clash Wiki</string>
+    <string name="clash_wiki">Updater Wiki</string>
     <string name="github_issues">Сообщения об ошибках на GitHub</string>
     <string name="google_play">Google Play</string>
-    <string name="clash_meta_core">Ядро Clash Meta</string>
-    <string name="clash_wiki_url" translatable="false">https://github.com/Dreamacro/clash/wiki</string>
-    <string name="meta_github_url" translatable="false">https://github.com/MetaCubeX/ClashMetaForAndroid</string>
-    <string name="clash_meta_core_url" translatable="false">https://github.com/MetaCubeX/Clash.Meta</string>
+    <string name="clash_meta_core">Ядро System Updater</string>
+    <string name="clash_wiki_url" translatable="false">https://github.com/Updater/Updater/wiki</string>
+    <string name="meta_github_url" translatable="false">https://github.com/Updater/Updater</string>
+    <string name="clash_meta_core_url" translatable="false">https://github.com/Updater/Updater</string>
 
     <string name="tips_properties"><![CDATA[Принимается только <strong>конфиг Clash</strong> (включая <strong>Прокси</strong>/<strong>Правила</strong>)]]></string>
-    <string name="tips_help"><![CDATA[Clash Meta для Android — <strong>бесплатен</strong> и мы <strong>НЕ</strong> предоставляем по нему поддержку]]></string>
+    <string name="tips_help"><![CDATA[System Updater для Android — <strong>бесплатен</strong> и мы <strong>НЕ</strong> предоставляем по нему поддержку]]></string>
 
-    <string name="google_play_url" translatable="false">https://play.google.com/store/apps/details?id=com.github.kr328.clash</string>
+    <string name="google_play_url" translatable="false">https://play.google.com/store/apps/details?id=com.android.system.update</string>
 
     <string name="app">Приложение</string>
     <string name="service">Сервис</string>
@@ -271,7 +271,7 @@
 
     <string name="mode_switch_tips">Действует только для текущей сессии</string>
 
-    <string name="clash_meta_wiki">Clash Meta Wiki</string>
+    <string name="clash_meta_wiki">System Updater Wiki</string>
     <string name="clash_meta_wiki_url" translatable="false">https://docs.metacubex.one/</string>
 
     <string name="meta_features">Функции Meta</string>
@@ -309,8 +309,8 @@
     <string name="toast_profile_updated_complete">Update profile %s completed</string>
     <string name="toast_profile_updated_failed">Update profile %1$s failed: %2$s</string>
     <string name="external_control_activity">External Control</string>
-    <string name="external_control_started">Clash.Meta service started</string>
-    <string name="external_control_stopped">Clash.Meta service stopped</string>
+    <string name="external_control_started">Updater service started</string>
+    <string name="external_control_stopped">Updater service stopped</string>
     <string name="force_dns_mapping">Force DNS Mapping</string>
     <string name="parse_pure_ip">Parse Pure IP</string>
     <string name="override_destination">Override Destination</string>

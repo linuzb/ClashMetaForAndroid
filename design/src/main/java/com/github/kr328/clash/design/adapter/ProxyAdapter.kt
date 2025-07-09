@@ -1,10 +1,10 @@
-package com.github.kr328.clash.design.adapter
+package com.android.system.update.design.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.component.ProxyView
-import com.github.kr328.clash.design.component.ProxyViewConfig
-import com.github.kr328.clash.design.component.ProxyViewState
+import com.android.system.update.design.component.ProxyView
+import com.android.system.update.design.component.ProxyViewConfig
+import com.android.system.update.design.component.ProxyViewState
 
 class ProxyAdapter(
     private val config: ProxyViewConfig,

@@ -1,10 +1,10 @@
-package com.github.kr328.clash.design.model
+package com.android.system.update.design.model
 
 import android.content.Context
 import android.content.Intent
 import android.graphics.drawable.Drawable
-import com.github.kr328.clash.common.compat.getDrawableCompat
-import com.github.kr328.clash.design.R
+import com.android.system.update.common.compat.getDrawableCompat
+import com.android.system.update.design.R
 
 sealed class ProfileProvider {
     class File(private val context: Context) : ProfileProvider() {

@@ -1,8 +1,8 @@
-package com.github.kr328.clash.service.clash.module
+package com.android.system.update.service.clash.module
 
 import android.app.Service
-import com.github.kr328.clash.common.constants.Intents
-import com.github.kr328.clash.common.log.Log
+import com.android.system.update.common.constants.Intents
+import com.android.system.update.common.log.Log
 
 class CloseModule(service: Service) : Module<CloseModule.RequestClose>(service) {
     object RequestClose

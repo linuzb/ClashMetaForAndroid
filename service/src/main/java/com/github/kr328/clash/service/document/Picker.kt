@@ -1,14 +1,14 @@
-package com.github.kr328.clash.service.document
+package com.android.system.update.service.document
 
 import android.content.Context
 import android.provider.DocumentsContract
-import com.github.kr328.clash.service.R
-import com.github.kr328.clash.service.data.ImportedDao
-import com.github.kr328.clash.service.data.Pending
-import com.github.kr328.clash.service.data.PendingDao
-import com.github.kr328.clash.service.model.Profile
-import com.github.kr328.clash.service.util.importedDir
-import com.github.kr328.clash.service.util.pendingDir
+import com.android.system.update.service.R
+import com.android.system.update.service.data.ImportedDao
+import com.android.system.update.service.data.Pending
+import com.android.system.update.service.data.PendingDao
+import com.android.system.update.service.model.Profile
+import com.android.system.update.service.util.importedDir
+import com.android.system.update.service.util.pendingDir
 import java.io.FileNotFoundException
 import java.util.*
 

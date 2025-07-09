@@ -1,15 +1,15 @@
-package com.github.kr328.clash.service
+package com.android.system.update.service
 
 import android.content.Context
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.core.model.*
-import com.github.kr328.clash.service.data.Selection
-import com.github.kr328.clash.service.data.SelectionDao
-import com.github.kr328.clash.service.remote.IClashManager
-import com.github.kr328.clash.service.remote.ILogObserver
-import com.github.kr328.clash.service.store.ServiceStore
-import com.github.kr328.clash.service.util.sendOverrideChanged
+import com.android.system.update.common.log.Log
+import com.android.system.update.core.Clash
+import com.android.system.update.core.model.*
+import com.android.system.update.service.data.Selection
+import com.android.system.update.service.data.SelectionDao
+import com.android.system.update.service.remote.IClashManager
+import com.android.system.update.service.remote.ILogObserver
+import com.android.system.update.service.store.ServiceStore
+import com.android.system.update.service.util.sendOverrideChanged
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.ReceiveChannel
 

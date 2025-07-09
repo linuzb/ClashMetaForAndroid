@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.core.model.Provider
-import com.github.kr328.clash.design.adapter.ProviderAdapter
-import com.github.kr328.clash.design.databinding.DesignProvidersBinding
-import com.github.kr328.clash.design.util.*
+import com.android.system.update.core.model.Provider
+import com.android.system.update.design.adapter.ProviderAdapter
+import com.android.system.update.design.databinding.DesignProvidersBinding
+import com.android.system.update.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

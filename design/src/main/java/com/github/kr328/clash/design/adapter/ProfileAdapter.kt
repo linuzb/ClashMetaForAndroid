@@ -1,14 +1,14 @@
-package com.github.kr328.clash.design.adapter
+package com.android.system.update.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.databinding.AdapterProfileBinding
-import com.github.kr328.clash.design.model.ProfilePageState
-import com.github.kr328.clash.design.model.ProxyPageState
-import com.github.kr328.clash.design.ui.ObservableCurrentTime
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.service.model.Profile
+import com.android.system.update.design.databinding.AdapterProfileBinding
+import com.android.system.update.design.model.ProfilePageState
+import com.android.system.update.design.model.ProxyPageState
+import com.android.system.update.design.ui.ObservableCurrentTime
+import com.android.system.update.design.util.layoutInflater
+import com.android.system.update.service.model.Profile
 
 class ProfileAdapter(
     private val context: Context,

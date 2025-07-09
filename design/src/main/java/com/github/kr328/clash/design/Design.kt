@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.content.Context
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.github.kr328.clash.design.ui.Surface
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.design.util.setOnInsertsChangedListener
+import com.android.system.update.design.ui.Surface
+import com.android.system.update.design.ui.ToastDuration
+import com.android.system.update.design.util.setOnInsertsChangedListener
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

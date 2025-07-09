@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.util
+package com.android.system.update.design.util
 
 import android.content.Context
 import android.view.View

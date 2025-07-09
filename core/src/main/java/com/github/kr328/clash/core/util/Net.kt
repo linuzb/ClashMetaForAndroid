@@ -1,4 +1,4 @@
-package com.github.kr328.clash.core.util
+package com.android.system.update.core.util
 
 import java.net.InetAddress
 import java.net.InetSocketAddress

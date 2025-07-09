@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.app.Dialog
 import android.content.Context
@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
-import com.github.kr328.clash.design.adapter.ProfileAdapter
-import com.github.kr328.clash.design.databinding.DesignProfilesBinding
-import com.github.kr328.clash.design.databinding.DialogProfilesMenuBinding
-import com.github.kr328.clash.design.dialog.AppBottomSheetDialog
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.design.util.*
-import com.github.kr328.clash.service.model.Profile
+import com.android.system.update.design.adapter.ProfileAdapter
+import com.android.system.update.design.databinding.DesignProfilesBinding
+import com.android.system.update.design.databinding.DialogProfilesMenuBinding
+import com.android.system.update.design.dialog.AppBottomSheetDialog
+import com.android.system.update.design.ui.ToastDuration
+import com.android.system.update.design.util.*
+import com.android.system.update.service.model.Profile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

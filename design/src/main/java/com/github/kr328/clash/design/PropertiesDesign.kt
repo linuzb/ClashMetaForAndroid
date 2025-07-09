@@ -1,14 +1,14 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.core.model.FetchStatus
-import com.github.kr328.clash.design.databinding.DesignPropertiesBinding
-import com.github.kr328.clash.design.dialog.ModelProgressBarConfigure
-import com.github.kr328.clash.design.dialog.requestModelTextInput
-import com.github.kr328.clash.design.dialog.withModelProgressBar
-import com.github.kr328.clash.design.util.*
-import com.github.kr328.clash.service.model.Profile
+import com.android.system.update.core.model.FetchStatus
+import com.android.system.update.design.databinding.DesignPropertiesBinding
+import com.android.system.update.design.dialog.ModelProgressBarConfigure
+import com.android.system.update.design.dialog.requestModelTextInput
+import com.android.system.update.design.dialog.withModelProgressBar
+import com.android.system.update.design.util.*
+import com.android.system.update.service.model.Profile
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

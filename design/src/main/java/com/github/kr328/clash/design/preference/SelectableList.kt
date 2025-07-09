@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.preference
+package com.android.system.update.design.preference
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.appcompat.widget.ListPopupWindow
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.adapter.PopupListAdapter
-import com.github.kr328.clash.design.util.getPixels
-import com.github.kr328.clash.design.util.measureWidth
+import com.android.system.update.design.R
+import com.android.system.update.design.adapter.PopupListAdapter
+import com.android.system.update.design.util.getPixels
+import com.android.system.update.design.util.measureWidth
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common.compat
+package com.android.system.update.common.compat
 
 import android.app.Notification
 import android.app.Service

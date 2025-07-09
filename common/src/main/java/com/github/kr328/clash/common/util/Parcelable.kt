@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common.util
+package com.android.system.update.common.util
 
 import android.os.Binder
 import android.os.Parcel

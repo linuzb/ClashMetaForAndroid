@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.model
+package com.android.system.update.design.model
 
 data class File(
     val id: String,

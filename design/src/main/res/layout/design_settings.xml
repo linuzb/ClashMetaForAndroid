@@ -4,9 +4,9 @@
     <data>
         <variable
             name="self"
-            type="com.github.kr328.clash.design.SettingsDesign" />
+            type="com.android.system.update.design.SettingsDesign" />
 
-        <import type="com.github.kr328.clash.design.SettingsDesign.Request" />
+        <import type="com.android.system.update.design.SettingsDesign.Request" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -15,7 +15,7 @@
         android:paddingStart="@{self.surface.insets.start}"
         android:paddingEnd="@{self.surface.insets.end}">
 
-        <com.github.kr328.clash.design.view.ObservableScrollView
+        <com.android.system.update.design.view.ObservableScrollView
             android:id="@+id/scroll_root"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -28,28 +28,28 @@
                 android:paddingTop="@{(float) self.surface.insets.top + @dimen/toolbar_height}"
                 android:paddingBottom="@{self.surface.insets.bottom}">
 
-                <com.github.kr328.clash.design.view.ActionLabel
+                <com.android.system.update.design.view.ActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="@{() -> self.request(Request.StartApp)}"
                     app:icon="@drawable/ic_baseline_settings"
                     app:text="@string/app" />
 
-                <com.github.kr328.clash.design.view.ActionLabel
+                <com.android.system.update.design.view.ActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="@{() -> self.request(Request.StartNetwork)}"
                     app:icon="@drawable/ic_baseline_dns"
                     app:text="@string/network" />
 
-                <com.github.kr328.clash.design.view.ActionLabel
+                <com.android.system.update.design.view.ActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="@{() -> self.request(Request.StartOverride)}"
                     app:icon="@drawable/ic_baseline_extension"
                     app:text="@string/override" />
 
-                <com.github.kr328.clash.design.view.ActionLabel
+                <com.android.system.update.design.view.ActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="@{() -> self.request(Request.StartMetaFeature)}"
@@ -57,9 +57,9 @@
                     app:text="@string/meta_features" />
 
             </LinearLayout>
-        </com.github.kr328.clash.design.view.ObservableScrollView>
+        </com.android.system.update.design.view.ObservableScrollView>
 
-        <com.github.kr328.clash.design.view.ActivityBarLayout
+        <com.android.system.update.design.view.ActivityBarLayout
             android:id="@+id/activity_bar_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             android:paddingEnd="@dimen/item_tailing_margin">
 
             <include layout="@layout/common_activity_bar" />
-        </com.github.kr328.clash.design.view.ActivityBarLayout>
+        </com.android.system.update.design.view.ActivityBarLayout>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

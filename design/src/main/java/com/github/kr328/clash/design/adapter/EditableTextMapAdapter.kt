@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.adapter
+package com.android.system.update.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.databinding.AdapterEditableTextMapBinding
-import com.github.kr328.clash.design.preference.TextAdapter
-import com.github.kr328.clash.design.util.layoutInflater
+import com.android.system.update.design.databinding.AdapterEditableTextMapBinding
+import com.android.system.update.design.preference.TextAdapter
+import com.android.system.update.design.util.layoutInflater
 
 class EditableTextMapAdapter<K, V>(
     private val context: Context,

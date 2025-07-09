@@ -1,4 +1,4 @@
-package com.github.kr328.clash.common.id
+package com.android.system.update.common.id
 
 object UndefinedIds {
     private const val PREFIX = 0x14000000

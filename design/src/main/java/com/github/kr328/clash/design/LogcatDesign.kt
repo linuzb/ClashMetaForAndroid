@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -6,11 +6,11 @@ import android.content.Context
 import android.view.View
 import androidx.core.content.getSystemService
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.github.kr328.clash.core.model.LogMessage
-import com.github.kr328.clash.design.adapter.LogMessageAdapter
-import com.github.kr328.clash.design.databinding.DesignLogcatBinding
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.design.util.*
+import com.android.system.update.core.model.LogMessage
+import com.android.system.update.design.adapter.LogMessageAdapter
+import com.android.system.update.design.databinding.DesignLogcatBinding
+import com.android.system.update.design.ui.ToastDuration
+import com.android.system.update.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

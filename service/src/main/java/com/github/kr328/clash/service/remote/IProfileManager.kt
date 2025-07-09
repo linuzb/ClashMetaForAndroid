@@ -1,6 +1,6 @@
-package com.github.kr328.clash.service.remote
+package com.android.system.update.service.remote
 
-import com.github.kr328.clash.service.model.Profile
+import com.android.system.update.service.model.Profile
 import com.github.kr328.kaidl.BinderInterface
 import java.util.*
 
