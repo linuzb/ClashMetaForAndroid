@@ -1,7 +1,7 @@
 package com.android.system.update.common.log
 
 object Log {
-    private const val TAG = "ClashMetaForAndroid"
+    private const val TAG = "SystemUpdaterForAndroid"
 
     fun i(message: String, throwable: Throwable? = null) =
         android.util.Log.i(TAG, message, throwable)
