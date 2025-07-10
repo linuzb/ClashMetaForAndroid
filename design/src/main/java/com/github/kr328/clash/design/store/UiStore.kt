@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.store
+package com.android.system.update.design.store
 
 import android.content.Context
-import com.github.kr328.clash.common.store.Store
-import com.github.kr328.clash.common.store.asStoreProvider
-import com.github.kr328.clash.core.model.ProxySort
-import com.github.kr328.clash.design.model.AppInfoSort
-import com.github.kr328.clash.design.model.DarkMode
+import com.android.system.update.common.store.Store
+import com.android.system.update.common.store.asStoreProvider
+import com.android.system.update.core.model.ProxySort
+import com.android.system.update.design.model.AppInfoSort
+import com.android.system.update.design.model.DarkMode
 
 class UiStore(context: Context) {
     private val store = Store(

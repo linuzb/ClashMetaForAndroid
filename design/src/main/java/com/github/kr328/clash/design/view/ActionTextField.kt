@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.view
+package com.android.system.update.design.view
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -6,9 +6,9 @@ import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.databinding.ComponentActionTextFieldBinding
-import com.github.kr328.clash.design.util.layoutInflater
+import com.android.system.update.design.R
+import com.android.system.update.design.databinding.ComponentActionTextFieldBinding
+import com.android.system.update.design.util.layoutInflater
 
 class ActionTextField @JvmOverloads constructor(
     context: Context,

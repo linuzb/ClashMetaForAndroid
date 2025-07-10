@@ -4,8 +4,8 @@
     <data>
         <variable
             name="self"
-            type="com.github.kr328.clash.design.LogsDesign" />
-        <import type="com.github.kr328.clash.design.LogsDesign.Request" />
+            type="com.android.system.update.design.LogsDesign" />
+        <import type="com.android.system.update.design.LogsDesign.Request" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.github.kr328.clash.design.view.ActivityBarLayout
+            <com.android.system.update.design.view.ActivityBarLayout
                 android:id="@+id/activity_bar_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,15 +54,15 @@
                         android:padding="@dimen/toolbar_image_action_padding"
                         android:src="@drawable/ic_baseline_clear_all" />
                 </RelativeLayout>
-            </com.github.kr328.clash.design.view.ActivityBarLayout>
+            </com.android.system.update.design.view.ActivityBarLayout>
 
-            <com.github.kr328.clash.design.view.ActionLabel
+            <com.android.system.update.design.view.ActionLabel
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="@{() -> self.requests.offer(Request.StartLogcat.INSTANCE)}"
                 app:icon="@drawable/ic_baseline_adb"
                 app:subtext="@string/tap_to_start"
-                app:text="@string/clash_logcat" />
+                app:text="@string/updater_logcat" />
 
             <View
                 android:layout_width="match_parent"

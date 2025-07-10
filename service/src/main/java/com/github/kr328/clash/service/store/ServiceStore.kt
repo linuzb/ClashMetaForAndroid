@@ -1,10 +1,10 @@
-package com.github.kr328.clash.service.store
+package com.android.system.update.service.store
 
 import android.content.Context
-import com.github.kr328.clash.common.store.Store
-import com.github.kr328.clash.common.store.asStoreProvider
-import com.github.kr328.clash.service.PreferenceProvider
-import com.github.kr328.clash.service.model.AccessControlMode
+import com.android.system.update.common.store.Store
+import com.android.system.update.common.store.asStoreProvider
+import com.android.system.update.service.PreferenceProvider
+import com.android.system.update.service.model.AccessControlMode
 import java.util.*
 
 class ServiceStore(context: Context) {

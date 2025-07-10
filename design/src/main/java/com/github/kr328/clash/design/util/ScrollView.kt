@@ -1,6 +1,6 @@
-package com.github.kr328.clash.design.util
+package com.android.system.update.design.util
 
-import com.github.kr328.clash.design.view.ObservableScrollView
+import com.android.system.update.design.view.ObservableScrollView
 
 val ObservableScrollView.isTop: Boolean
     get() = scrollX == 0 && scrollY == 0

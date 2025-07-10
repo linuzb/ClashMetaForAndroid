@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.preference
+package com.android.system.update.design.preference
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.databinding.DialogPreferenceListBinding
-import com.github.kr328.clash.design.dialog.FullScreenDialog
-import com.github.kr328.clash.design.util.applyLinearAdapter
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.root
+import com.android.system.update.design.databinding.DialogPreferenceListBinding
+import com.android.system.update.design.dialog.FullScreenDialog
+import com.android.system.update.design.util.applyLinearAdapter
+import com.android.system.update.design.util.layoutInflater
+import com.android.system.update.design.util.root
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine

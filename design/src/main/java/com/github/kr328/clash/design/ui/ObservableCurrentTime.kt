@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.ui
+package com.android.system.update.design.ui
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable

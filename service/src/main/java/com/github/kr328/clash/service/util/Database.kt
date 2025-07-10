@@ -1,7 +1,7 @@
-package com.github.kr328.clash.service.util
+package com.android.system.update.service.util
 
-import com.github.kr328.clash.service.data.ImportedDao
-import com.github.kr328.clash.service.data.PendingDao
+import com.android.system.update.service.data.ImportedDao
+import com.android.system.update.service.data.PendingDao
 import java.util.*
 
 suspend fun generateProfileUUID(): UUID {

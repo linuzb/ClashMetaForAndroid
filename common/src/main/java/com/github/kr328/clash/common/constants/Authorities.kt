@@ -1,6 +1,6 @@
-package com.github.kr328.clash.common.constants
+package com.android.system.update.common.constants
 
-import com.github.kr328.clash.common.util.packageName
+import com.android.system.update.common.util.packageName
 
 object Authorities {
     val STATUS_PROVIDER = "$packageName.status"

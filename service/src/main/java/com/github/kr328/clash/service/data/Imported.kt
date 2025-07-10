@@ -1,9 +1,9 @@
-package com.github.kr328.clash.service.data
+package com.android.system.update.service.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.TypeConverters
-import com.github.kr328.clash.service.model.Profile
+import com.android.system.update.service.model.Profile
 import java.util.*
 
 @Entity(tableName = "imported", primaryKeys = ["uuid"])

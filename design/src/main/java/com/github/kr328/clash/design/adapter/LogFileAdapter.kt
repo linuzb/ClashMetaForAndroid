@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.adapter
+package com.android.system.update.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.design.model.LogFile
-import com.github.kr328.clash.design.util.format
-import com.github.kr328.clash.design.view.ActionLabel
+import com.android.system.update.design.model.LogFile
+import com.android.system.update.design.util.format
+import com.android.system.update.design.view.ActionLabel
 
 class LogFileAdapter(
     private val context: Context,

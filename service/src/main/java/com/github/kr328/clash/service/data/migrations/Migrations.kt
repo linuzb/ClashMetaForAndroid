@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service.data.migrations
+package com.android.system.update.service.data.migrations
 
 import androidx.room.migration.Migration
 

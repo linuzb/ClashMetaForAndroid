@@ -1,15 +1,15 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.app.Dialog
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.design.adapter.FileAdapter
-import com.github.kr328.clash.design.databinding.DesignFilesBinding
-import com.github.kr328.clash.design.databinding.DialogFilesMenuBinding
-import com.github.kr328.clash.design.dialog.AppBottomSheetDialog
-import com.github.kr328.clash.design.dialog.requestModelTextInput
-import com.github.kr328.clash.design.model.File
-import com.github.kr328.clash.design.util.*
+import com.android.system.update.design.adapter.FileAdapter
+import com.android.system.update.design.databinding.DesignFilesBinding
+import com.android.system.update.design.databinding.DialogFilesMenuBinding
+import com.android.system.update.design.dialog.AppBottomSheetDialog
+import com.android.system.update.design.dialog.requestModelTextInput
+import com.android.system.update.design.model.File
+import com.android.system.update.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

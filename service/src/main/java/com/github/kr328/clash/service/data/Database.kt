@@ -1,11 +1,11 @@
-package com.github.kr328.clash.service.data
+package com.android.system.update.service.data
 
 import android.content.Context
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.github.kr328.clash.common.Global
-import com.github.kr328.clash.service.data.migrations.LEGACY_MIGRATION
-import com.github.kr328.clash.service.data.migrations.MIGRATIONS
+import com.android.system.update.common.Global
+import com.android.system.update.service.data.migrations.LEGACY_MIGRATION
+import com.android.system.update.service.data.migrations.MIGRATIONS
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.lang.ref.SoftReference

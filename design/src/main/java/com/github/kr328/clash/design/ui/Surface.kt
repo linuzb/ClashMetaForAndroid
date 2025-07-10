@@ -1,8 +1,8 @@
-package com.github.kr328.clash.design.ui
+package com.android.system.update.design.ui
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import com.github.kr328.clash.design.BR
+import com.android.system.update.design.BR
 
 class Surface : BaseObservable() {
     var insets: Insets = Insets.EMPTY

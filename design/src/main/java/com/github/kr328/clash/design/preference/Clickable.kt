@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.preference
+package com.android.system.update.design.preference
 
 import android.graphics.drawable.Drawable
 import android.view.View
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.github.kr328.clash.common.compat.getDrawableCompat
-import com.github.kr328.clash.design.databinding.PreferenceClickableBinding
-import com.github.kr328.clash.design.util.layoutInflater
+import com.android.system.update.common.compat.getDrawableCompat
+import com.android.system.update.design.databinding.PreferenceClickableBinding
+import com.android.system.update.design.util.layoutInflater
 
 interface ClickablePreference : Preference {
     var title: CharSequence

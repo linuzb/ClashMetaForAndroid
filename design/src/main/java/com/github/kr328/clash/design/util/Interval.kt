@@ -1,7 +1,7 @@
-package com.github.kr328.clash.design.util
+package com.android.system.update.design.util
 
 import android.content.Context
-import com.github.kr328.clash.design.R
+import com.android.system.update.design.R
 import java.util.concurrent.TimeUnit
 
 fun Long.elapsedIntervalString(context: Context): String {

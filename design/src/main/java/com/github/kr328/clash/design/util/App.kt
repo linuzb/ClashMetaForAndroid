@@ -1,9 +1,9 @@
-package com.github.kr328.clash.design.util
+package com.android.system.update.design.util
 
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
-import com.github.kr328.clash.common.compat.foreground
-import com.github.kr328.clash.design.model.AppInfo
+import com.android.system.update.common.compat.foreground
+import com.android.system.update.design.model.AppInfo
 
 fun PackageInfo.toAppInfo(pm: PackageManager): AppInfo {
     return AppInfo(

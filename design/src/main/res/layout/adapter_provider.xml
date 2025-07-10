@@ -3,19 +3,19 @@
     <data>
         <variable
             name="provider"
-            type="com.github.kr328.clash.core.model.Provider" />
+            type="com.android.system.update.core.model.Provider" />
         <variable
             name="state"
-            type="com.github.kr328.clash.design.model.ProviderState" />
+            type="com.android.system.update.design.model.ProviderState" />
         <variable
             name="currentTime"
-            type="com.github.kr328.clash.design.ui.ObservableCurrentTime" />
+            type="com.android.system.update.design.ui.ObservableCurrentTime" />
         <variable
             name="update"
             type="android.view.View.OnClickListener" />
 
-        <import type="com.github.kr328.clash.design.util.I18nKt" />
-        <import type="com.github.kr328.clash.design.util.IntervalKt" />
+        <import type="com.android.system.update.design.util.I18nKt" />
+        <import type="com.android.system.update.design.util.IntervalKt" />
         <import type="android.view.View" />
     </data>
 

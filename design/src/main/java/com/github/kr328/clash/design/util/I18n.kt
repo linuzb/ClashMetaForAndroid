@@ -1,10 +1,10 @@
-package com.github.kr328.clash.design.util
+package com.android.system.update.design.util
 
 import android.content.Context
-import com.github.kr328.clash.common.compat.preferredLocale
-import com.github.kr328.clash.core.model.Provider
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.service.model.Profile
+import com.android.system.update.common.compat.preferredLocale
+import com.android.system.update.core.model.Provider
+import com.android.system.update.design.R
+import com.android.system.update.service.model.Profile
 import java.text.SimpleDateFormat
 import java.util.*
 

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service.remote
+package com.android.system.update.service.remote
 
 import com.github.kr328.kaidl.BinderInterface
 

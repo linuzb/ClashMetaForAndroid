@@ -1,7 +1,7 @@
-package com.github.kr328.clash.service
+package com.android.system.update.service
 
 import android.app.Service
-import com.github.kr328.clash.service.util.cancelAndJoinBlocking
+import com.android.system.update.service.util.cancelAndJoinBlocking
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 

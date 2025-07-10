@@ -1,6 +1,6 @@
-package com.github.kr328.clash.design.util
+package com.android.system.update.design.util
 
-import com.github.kr328.clash.common.util.PatternFileName
+import com.android.system.update.common.util.PatternFileName
 
 typealias Validator = (String) -> Boolean
 

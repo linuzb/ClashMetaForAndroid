@@ -1,8 +1,8 @@
-package com.github.kr328.clash.service.clash
+package com.android.system.update.service.clash
 
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.service.clash.module.Module
+import com.android.system.update.common.log.Log
+import com.android.system.update.core.Clash
+import com.android.system.update.service.clash.module.Module
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock

@@ -1,4 +1,4 @@
-package com.github.kr328.clash.service
+package com.android.system.update.service
 
 import android.database.Cursor
 import android.database.MatrixCursor
@@ -7,8 +7,8 @@ import android.os.CancellationSignal
 import android.os.ParcelFileDescriptor
 import android.provider.DocumentsContract.Root
 import android.provider.DocumentsProvider
-import com.github.kr328.clash.common.util.PatternFileName
-import com.github.kr328.clash.service.document.*
+import com.android.system.update.common.util.PatternFileName
+import com.android.system.update.service.document.*
 import kotlinx.coroutines.runBlocking
 import java.io.FileNotFoundException
 import android.provider.DocumentsContract.Document as D

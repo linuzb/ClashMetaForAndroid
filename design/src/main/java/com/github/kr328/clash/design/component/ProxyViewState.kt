@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.component
+package com.android.system.update.design.component
 
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Path
 import android.graphics.Rect
-import com.github.kr328.clash.core.model.Proxy
-import com.github.kr328.clash.design.model.ProxyState
+import com.android.system.update.core.model.Proxy
+import com.android.system.update.design.model.ProxyState
 import kotlin.math.absoluteValue
 import kotlin.math.max
 

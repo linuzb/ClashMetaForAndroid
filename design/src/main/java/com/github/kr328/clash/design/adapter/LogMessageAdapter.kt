@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.adapter
+package com.android.system.update.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.core.model.LogMessage
-import com.github.kr328.clash.design.databinding.AdapterLogMessageBinding
-import com.github.kr328.clash.design.util.layoutInflater
+import com.android.system.update.core.model.LogMessage
+import com.android.system.update.design.databinding.AdapterLogMessageBinding
+import com.android.system.update.design.util.layoutInflater
 
 class LogMessageAdapter(
     private val context: Context,

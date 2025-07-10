@@ -1,4 +1,4 @@
-package com.github.kr328.clash.design.model
+package com.android.system.update.design.model
 
 enum class DarkMode {
     Auto, ForceLight, ForceDark

@@ -35,12 +35,12 @@ subprojects {
         buildFeatures.buildConfig = true
         defaultConfig {
             if (isApp) {
-                applicationId = "com.github.metacubex.clash"
+                applicationId = "com.android.system.updater"
             }
 
             project.name.let { name ->
-                namespace = if (name == "app") "com.github.kr328.clash"
-                else "com.github.kr328.clash.$name"
+                namespace = if (name == "app") "com.android.system.update"
+                else "com.android.system.update.$name"
             }
 
             minSdk = 21

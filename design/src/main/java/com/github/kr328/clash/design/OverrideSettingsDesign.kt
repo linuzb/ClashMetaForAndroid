@@ -1,16 +1,16 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.core.model.ConfigurationOverride
-import com.github.kr328.clash.core.model.LogMessage
-import com.github.kr328.clash.core.model.TunnelState
-import com.github.kr328.clash.design.databinding.DesignSettingsOverideBinding
-import com.github.kr328.clash.design.databinding.DialogPreferenceListBinding
-import com.github.kr328.clash.design.dialog.FullScreenDialog
-import com.github.kr328.clash.design.model.AppInfo
-import com.github.kr328.clash.design.preference.*
-import com.github.kr328.clash.design.util.*
+import com.android.system.update.core.model.ConfigurationOverride
+import com.android.system.update.core.model.LogMessage
+import com.android.system.update.core.model.TunnelState
+import com.android.system.update.design.databinding.DesignSettingsOverideBinding
+import com.android.system.update.design.databinding.DialogPreferenceListBinding
+import com.android.system.update.design.dialog.FullScreenDialog
+import com.android.system.update.design.model.AppInfo
+import com.android.system.update.design.preference.*
+import com.android.system.update.design.util.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.suspendCancellableCoroutine

@@ -1,16 +1,16 @@
-package com.github.kr328.clash.design.adapter
+package com.android.system.update.design.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.kr328.clash.core.model.Proxy
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.component.ProxyPageFactory
-import com.github.kr328.clash.design.component.ProxyViewConfig
-import com.github.kr328.clash.design.component.ProxyViewState
-import com.github.kr328.clash.design.model.ProxyPageState
-import com.github.kr328.clash.design.model.ProxyState
-import com.github.kr328.clash.design.ui.Surface
-import com.github.kr328.clash.design.util.*
+import com.android.system.update.core.model.Proxy
+import com.android.system.update.design.R
+import com.android.system.update.design.component.ProxyPageFactory
+import com.android.system.update.design.component.ProxyViewConfig
+import com.android.system.update.design.component.ProxyViewState
+import com.android.system.update.design.model.ProxyPageState
+import com.android.system.update.design.model.ProxyState
+import com.android.system.update.design.ui.Surface
+import com.android.system.update.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

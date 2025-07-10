@@ -1,5 +1,5 @@
-package com.github.kr328.clash.common.util
+package com.android.system.update.common.util
 
-import com.github.kr328.clash.common.Global
+import com.android.system.update.common.Global
 
 val packageName: String = Global.application.packageName

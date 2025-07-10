@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.view
+package com.android.system.update.design.view
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import androidx.annotation.AttrRes
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.databinding.ComponentLargeActionLabelBinding
-import com.github.kr328.clash.design.util.*
+import com.android.system.update.design.R
+import com.android.system.update.design.databinding.ComponentLargeActionLabelBinding
+import com.android.system.update.design.util.*
 import com.google.android.material.card.MaterialCardView
 
 class LargeActionCard @JvmOverloads constructor(

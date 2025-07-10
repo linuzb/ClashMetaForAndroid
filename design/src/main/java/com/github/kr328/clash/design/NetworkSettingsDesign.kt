@@ -1,18 +1,18 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.content.Context
 import android.os.Build
 import android.view.View
-import com.github.kr328.clash.design.databinding.DesignSettingsCommonBinding
-import com.github.kr328.clash.design.preference.*
-import com.github.kr328.clash.design.store.UiStore
-import com.github.kr328.clash.design.ui.ToastDuration
-import com.github.kr328.clash.design.util.applyFrom
-import com.github.kr328.clash.design.util.bindAppBarElevation
-import com.github.kr328.clash.design.util.layoutInflater
-import com.github.kr328.clash.design.util.root
-import com.github.kr328.clash.service.model.AccessControlMode
-import com.github.kr328.clash.service.store.ServiceStore
+import com.android.system.update.design.databinding.DesignSettingsCommonBinding
+import com.android.system.update.design.preference.*
+import com.android.system.update.design.store.UiStore
+import com.android.system.update.design.ui.ToastDuration
+import com.android.system.update.design.util.applyFrom
+import com.android.system.update.design.util.bindAppBarElevation
+import com.android.system.update.design.util.layoutInflater
+import com.android.system.update.design.util.root
+import com.android.system.update.service.model.AccessControlMode
+import com.android.system.update.service.store.ServiceStore
 import kotlinx.coroutines.launch
 
 class NetworkSettingsDesign(

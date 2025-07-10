@@ -1,12 +1,12 @@
-package com.github.kr328.clash.service.clash.module
+package com.android.system.update.service.clash.module
 
 import android.app.Service
 import android.net.*
 import android.os.Build
 import androidx.core.content.getSystemService
-import com.github.kr328.clash.common.log.Log
-import com.github.kr328.clash.core.Clash
-import com.github.kr328.clash.service.util.asSocketAddressText
+import com.android.system.update.common.log.Log
+import com.android.system.update.core.Clash
+import com.android.system.update.service.util.asSocketAddressText
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.selects.select

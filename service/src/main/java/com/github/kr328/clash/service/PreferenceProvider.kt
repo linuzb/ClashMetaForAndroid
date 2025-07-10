@@ -1,8 +1,8 @@
-package com.github.kr328.clash.service
+package com.android.system.update.service
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.github.kr328.clash.common.constants.Authorities
+import com.android.system.update.common.constants.Authorities
 import rikka.preference.MultiProcessPreference
 import rikka.preference.PreferenceProvider
 

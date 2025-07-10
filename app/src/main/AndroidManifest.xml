@@ -74,20 +74,19 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="clash"/>
-                <data android:scheme="clashmeta"/>
+                <data android:scheme="systemupdate"/>
                 <data android:host="install-config"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.github.metacubex.clash.meta.action.START_CLASH" />
+                <action android:name="com.android.system.updater.action.START" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.github.metacubex.clash.meta.action.STOP_CLASH" />
+                <action android:name="com.android.system.updater.action.STOP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.github.metacubex.clash.meta.action.TOGGLE_CLASH" />
+                <action android:name="com.android.system.updater.action.TOGGLE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -181,7 +180,7 @@
         <service
             android:name=".LogcatService"
             android:exported="false"
-            android:label="@string/clash_logcat"
+            android:label="@string/updater_logcat"
             android:foregroundServiceType="specialUse">
             <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
             android:value="explanation_for_special_use"/>
@@ -211,8 +210,8 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SECRET_CODE" />
-                <!-- 252746382 is the name of Clash Meta in T9 -->
-                <data android:scheme="android_secret_code" android:host="252746382" />
+                <!-- 252746382 is the name of System Updater in T9 -->
+                <data android:scheme="android_secret_code" android:host="7968868736" />
             </intent-filter>
         </receiver>
     </application>

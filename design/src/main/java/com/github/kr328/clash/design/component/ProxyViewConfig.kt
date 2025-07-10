@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design.component
+package com.android.system.update.design.component
 
 import android.content.Context
 import android.graphics.Color
-import com.github.kr328.clash.design.R
-import com.github.kr328.clash.design.util.getPixels
-import com.github.kr328.clash.design.util.resolveThemedColor
-import com.github.kr328.clash.design.util.resolveThemedResourceId
+import com.android.system.update.design.R
+import com.android.system.update.design.util.getPixels
+import com.android.system.update.design.util.resolveThemedColor
+import com.android.system.update.design.util.resolveThemedResourceId
 
 class ProxyViewConfig(val context: Context, var proxyLine: Int) {
     private val colorSurface = context.resolveThemedColor(com.google.android.material.R.attr.colorSurface)

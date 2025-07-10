@@ -1,11 +1,11 @@
-package com.github.kr328.clash.design
+package com.android.system.update.design
 
 import android.content.Context
 import android.view.View
-import com.github.kr328.clash.core.model.ConfigurationOverride
-import com.github.kr328.clash.design.databinding.DesignSettingsMetaFeatureBinding
-import com.github.kr328.clash.design.preference.*
-import com.github.kr328.clash.design.util.*
+import com.android.system.update.core.model.ConfigurationOverride
+import com.android.system.update.design.databinding.DesignSettingsMetaFeatureBinding
+import com.android.system.update.design.preference.*
+import com.android.system.update.design.util.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume

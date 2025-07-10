@@ -1,12 +1,12 @@
-package com.github.kr328.clash.design.component
+package com.android.system.update.design.component
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Path
 import android.view.View
-import com.github.kr328.clash.common.compat.getDrawableCompat
-import com.github.kr328.clash.design.store.UiStore
+import com.android.system.update.common.compat.getDrawableCompat
+import com.android.system.update.design.store.UiStore
 
 class ProxyView(
     context: Context,
