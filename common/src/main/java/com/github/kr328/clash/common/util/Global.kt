@@ -1,5 +1,5 @@
-package com.android.system.update.common.util
+package com.android.system.updater.common.util
 
-import com.android.system.update.common.Global
+import com.android.system.updater.common.Global
 
 val packageName: String = Global.application.packageName

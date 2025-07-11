@@ -1,6 +1,6 @@
-package com.android.system.update.common.constants
+package com.android.system.updater.common.constants
 
-import com.android.system.update.common.util.packageName
+import com.android.system.updater.common.util.packageName
 
 object Authorities {
     val STATUS_PROVIDER = "$packageName.status"

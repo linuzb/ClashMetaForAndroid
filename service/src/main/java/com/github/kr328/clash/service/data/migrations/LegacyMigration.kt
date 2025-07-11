@@ -1,17 +1,17 @@
 @file:Suppress("BlockingMethodInNonBlockingContext")
 
-package com.android.system.update.service.data.migrations
+package com.android.system.updater.service.data.migrations
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import androidx.core.text.isDigitsOnly
-import com.android.system.update.common.log.Log
-import com.android.system.update.service.data.Pending
-import com.android.system.update.service.data.PendingDao
-import com.android.system.update.service.model.Profile
-import com.android.system.update.service.util.generateProfileUUID
-import com.android.system.update.service.util.pendingDir
-import com.android.system.update.service.util.sendProfileChanged
+import com.android.system.updater.common.log.Log
+import com.android.system.updater.service.data.Pending
+import com.android.system.updater.service.data.PendingDao
+import com.android.system.updater.service.model.Profile
+import com.android.system.updater.service.util.generateProfileUUID
+import com.android.system.updater.service.util.pendingDir
+import com.android.system.updater.service.util.sendProfileChanged
 import java.io.File
 
 internal suspend fun migrationFromLegacy(context: Context) {

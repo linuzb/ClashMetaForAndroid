@@ -1,4 +1,4 @@
-package com.android.system.update.common.compat
+package com.android.system.updater.common.compat
 
 import android.app.PendingIntent
 import android.os.Build

@@ -1,10 +1,10 @@
-package com.android.system.update.design.adapter
+package com.android.system.updater.design.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.update.design.component.ProxyView
-import com.android.system.update.design.component.ProxyViewConfig
-import com.android.system.update.design.component.ProxyViewState
+import com.android.system.updater.design.component.ProxyView
+import com.android.system.updater.design.component.ProxyViewConfig
+import com.android.system.updater.design.component.ProxyViewState
 
 class ProxyAdapter(
     private val config: ProxyViewConfig,

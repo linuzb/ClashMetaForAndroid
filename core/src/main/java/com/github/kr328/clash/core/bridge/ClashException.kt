@@ -1,4 +1,4 @@
-package com.android.system.update.core.bridge
+package com.android.system.updater.core.bridge
 
 import androidx.annotation.Keep
 

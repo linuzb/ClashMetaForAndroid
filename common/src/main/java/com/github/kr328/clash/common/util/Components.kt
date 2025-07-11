@@ -1,8 +1,8 @@
-package com.android.system.update.common.util
+package com.android.system.updater.common.util
 
 import android.content.ComponentName
 import android.content.Intent
-import com.android.system.update.common.Global
+import com.android.system.updater.common.Global
 import kotlin.reflect.KClass
 
 val KClass<*>.componentName: ComponentName

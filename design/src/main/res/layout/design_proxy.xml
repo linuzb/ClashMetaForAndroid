@@ -4,7 +4,7 @@
     <data>
         <variable
             name="self"
-            type="com.android.system.update.design.ProxyDesign" />
+            type="com.android.system.updater.design.ProxyDesign" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.android.system.update.design.view.ActivityBarLayout
+            <com.android.system.updater.design.view.ActivityBarLayout
                 android:id="@+id/activity_bar_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
                         android:src="@drawable/ic_baseline_more_vert" />
 
                 </RelativeLayout>
-            </com.android.system.update.design.view.ActivityBarLayout>
+            </com.android.system.updater.design.view.ActivityBarLayout>
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tab_layout_view"

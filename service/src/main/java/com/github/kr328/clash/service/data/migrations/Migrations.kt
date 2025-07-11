@@ -1,4 +1,4 @@
-package com.android.system.update.service.data.migrations
+package com.android.system.updater.service.data.migrations
 
 import androidx.room.migration.Migration
 

@@ -1,8 +1,8 @@
-package com.android.system.update.design.ui
+package com.android.system.updater.design.ui
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import com.android.system.update.design.BR
+import com.android.system.updater.design.BR
 
 class Surface : BaseObservable() {
     var insets: Insets = Insets.EMPTY

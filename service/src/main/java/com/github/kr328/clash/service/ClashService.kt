@@ -1,15 +1,15 @@
-package com.android.system.update.service
+package com.android.system.updater.service
 
 import android.content.Intent
 import android.os.Binder
 import android.os.IBinder
-import com.android.system.update.common.log.Log
-import com.android.system.update.service.clash.clashRuntime
-import com.android.system.update.service.clash.module.*
-import com.android.system.update.service.store.ServiceStore
-import com.android.system.update.service.util.cancelAndJoinBlocking
-import com.android.system.update.service.util.sendClashStarted
-import com.android.system.update.service.util.sendClashStopped
+import com.android.system.updater.common.log.Log
+import com.android.system.updater.service.clash.clashRuntime
+import com.android.system.updater.service.clash.module.*
+import com.android.system.updater.service.store.ServiceStore
+import com.android.system.updater.service.util.cancelAndJoinBlocking
+import com.android.system.updater.service.util.sendClashStarted
+import com.android.system.updater.service.util.sendClashStopped
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select

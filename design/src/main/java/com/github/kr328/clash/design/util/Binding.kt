@@ -1,4 +1,4 @@
-package com.android.system.update.design.util
+package com.android.system.updater.design.util
 
 import android.view.View
 import androidx.databinding.BindingAdapter

@@ -1,11 +1,11 @@
-package com.android.system.update.service.clash.module
+package com.android.system.updater.service.clash.module
 
 import android.app.Service
 import android.content.Intent
 import android.os.PowerManager
 import androidx.core.content.getSystemService
-import com.android.system.update.common.log.Log
-import com.android.system.update.core.Clash
+import com.android.system.updater.common.log.Log
+import com.android.system.updater.core.Clash
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.withContext

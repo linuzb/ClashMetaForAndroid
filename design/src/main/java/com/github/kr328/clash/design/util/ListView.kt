@@ -1,4 +1,4 @@
-package com.android.system.update.design.util
+package com.android.system.updater.design.util
 
 import android.content.Context
 import android.view.View

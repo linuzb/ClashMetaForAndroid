@@ -1,15 +1,15 @@
-package com.android.system.update.design
+package com.android.system.updater.design
 
 import android.content.Context
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.android.system.update.core.model.TunnelState
-import com.android.system.update.core.util.trafficTotal
-import com.android.system.update.design.databinding.DesignAboutBinding
-import com.android.system.update.design.databinding.DesignMainBinding
-import com.android.system.update.design.util.layoutInflater
-import com.android.system.update.design.util.resolveThemedColor
-import com.android.system.update.design.util.root
+import com.android.system.updater.core.model.TunnelState
+import com.android.system.updater.core.util.trafficTotal
+import com.android.system.updater.design.databinding.DesignAboutBinding
+import com.android.system.updater.design.databinding.DesignMainBinding
+import com.android.system.updater.design.util.layoutInflater
+import com.android.system.updater.design.util.resolveThemedColor
+import com.android.system.updater.design.util.root
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

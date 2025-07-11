@@ -3,8 +3,8 @@
     <data>
         <variable
             name="message"
-            type="com.android.system.update.core.model.LogMessage" />
-        <import type="com.android.system.update.design.util.I18nKt" />
+            type="com.android.system.updater.core.model.LogMessage" />
+        <import type="com.android.system.updater.design.util.I18nKt" />
     </data>
 
     <LinearLayout

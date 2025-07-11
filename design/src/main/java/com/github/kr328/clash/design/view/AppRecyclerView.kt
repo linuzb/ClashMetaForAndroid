@@ -1,4 +1,4 @@
-package com.android.system.update.design.view
+package com.android.system.updater.design.view
 
 import android.content.Context
 import android.graphics.Canvas

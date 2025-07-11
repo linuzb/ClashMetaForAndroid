@@ -1,8 +1,8 @@
-package com.android.system.update.design.dialog
+package com.android.system.updater.design.dialog
 
 import android.content.Context
-import com.android.system.update.design.databinding.DialogFetchStatusBinding
-import com.android.system.update.design.util.layoutInflater
+import com.android.system.updater.design.databinding.DialogFetchStatusBinding
+import com.android.system.updater.design.util.layoutInflater
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

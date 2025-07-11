@@ -3,10 +3,10 @@
     <data>
         <variable
             name="file"
-            type="com.android.system.update.design.model.File" />
+            type="com.android.system.updater.design.model.File" />
         <variable
             name="currentTime"
-            type="com.android.system.update.design.ui.ObservableCurrentTime" />
+            type="com.android.system.updater.design.ui.ObservableCurrentTime" />
         <variable
             name="open"
             type="android.view.View.OnClickListener" />
@@ -14,8 +14,8 @@
             name="more"
             type="android.view.View.OnClickListener" />
 
-        <import type="com.android.system.update.design.util.I18nKt" />
-        <import type="com.android.system.update.design.util.IntervalKt" />
+        <import type="com.android.system.updater.design.util.I18nKt" />
+        <import type="com.android.system.updater.design.util.IntervalKt" />
         <import type="android.view.View" />
     </data>
 

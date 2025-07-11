@@ -1,11 +1,11 @@
-package com.android.system.update.common.compat
+package com.android.system.updater.common.compat
 
 import android.app.ActivityThread
 import android.app.Application
 import android.graphics.drawable.AdaptiveIconDrawable
 import android.graphics.drawable.Drawable
 import android.os.Build
-import com.android.system.update.common.log.Log
+import com.android.system.updater.common.log.Log
 
 val Application.currentProcessName: String
     get() {

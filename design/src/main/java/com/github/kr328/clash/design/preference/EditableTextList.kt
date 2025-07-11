@@ -1,11 +1,11 @@
-package com.android.system.update.design.preference
+package com.android.system.updater.design.preference
 
 import android.content.Context
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.android.system.update.design.R
-import com.android.system.update.design.adapter.EditableTextListAdapter
-import com.android.system.update.design.dialog.requestModelTextInput
+import com.android.system.updater.design.R
+import com.android.system.updater.design.adapter.EditableTextListAdapter
+import com.android.system.updater.design.dialog.requestModelTextInput
 import kotlinx.coroutines.*
 import kotlin.reflect.KMutableProperty0
 

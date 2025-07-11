@@ -1,12 +1,12 @@
-package com.android.system.update.design.preference
+package com.android.system.updater.design.preference
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.appcompat.widget.ListPopupWindow
-import com.android.system.update.design.R
-import com.android.system.update.design.adapter.PopupListAdapter
-import com.android.system.update.design.util.getPixels
-import com.android.system.update.design.util.measureWidth
+import com.android.system.updater.design.R
+import com.android.system.updater.design.adapter.PopupListAdapter
+import com.android.system.updater.design.util.getPixels
+import com.android.system.updater.design.util.measureWidth
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

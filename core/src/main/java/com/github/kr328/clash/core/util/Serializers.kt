@@ -1,4 +1,4 @@
-package com.android.system.update.core.util
+package com.android.system.updater.core.util
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.PrimitiveKind

@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.android.system.update.common.compat
+package com.android.system.updater.common.compat
 
 import android.annotation.TargetApi
 import android.os.Build

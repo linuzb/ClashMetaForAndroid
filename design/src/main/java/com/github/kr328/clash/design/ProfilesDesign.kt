@@ -1,4 +1,4 @@
-package com.android.system.update.design
+package com.android.system.updater.design
 
 import android.app.Dialog
 import android.content.Context
@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
-import com.android.system.update.design.adapter.ProfileAdapter
-import com.android.system.update.design.databinding.DesignProfilesBinding
-import com.android.system.update.design.databinding.DialogProfilesMenuBinding
-import com.android.system.update.design.dialog.AppBottomSheetDialog
-import com.android.system.update.design.ui.ToastDuration
-import com.android.system.update.design.util.*
-import com.android.system.update.service.model.Profile
+import com.android.system.updater.design.adapter.ProfileAdapter
+import com.android.system.updater.design.databinding.DesignProfilesBinding
+import com.android.system.updater.design.databinding.DialogProfilesMenuBinding
+import com.android.system.updater.design.dialog.AppBottomSheetDialog
+import com.android.system.updater.design.ui.ToastDuration
+import com.android.system.updater.design.util.*
+import com.android.system.updater.service.model.Profile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

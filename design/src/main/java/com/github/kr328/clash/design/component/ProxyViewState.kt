@@ -1,11 +1,11 @@
-package com.android.system.update.design.component
+package com.android.system.updater.design.component
 
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Path
 import android.graphics.Rect
-import com.android.system.update.core.model.Proxy
-import com.android.system.update.design.model.ProxyState
+import com.android.system.updater.core.model.Proxy
+import com.android.system.updater.design.model.ProxyState
 import kotlin.math.absoluteValue
 import kotlin.math.max
 

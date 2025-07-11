@@ -1,4 +1,4 @@
-package com.android.system.update.service
+package com.android.system.updater.service
 
 import android.annotation.TargetApi
 import android.app.PendingIntent
@@ -6,17 +6,17 @@ import android.content.Intent
 import android.net.ProxyInfo
 import android.net.VpnService
 import android.os.Build
-import com.android.system.update.common.compat.pendingIntentFlags
-import com.android.system.update.common.constants.Components
-import com.android.system.update.common.log.Log
-import com.android.system.update.service.clash.clashRuntime
-import com.android.system.update.service.clash.module.*
-import com.android.system.update.service.model.AccessControlMode
-import com.android.system.update.service.store.ServiceStore
-import com.android.system.update.service.util.cancelAndJoinBlocking
-import com.android.system.update.service.util.parseCIDR
-import com.android.system.update.service.util.sendClashStarted
-import com.android.system.update.service.util.sendClashStopped
+import com.android.system.updater.common.compat.pendingIntentFlags
+import com.android.system.updater.common.constants.Components
+import com.android.system.updater.common.log.Log
+import com.android.system.updater.service.clash.clashRuntime
+import com.android.system.updater.service.clash.module.*
+import com.android.system.updater.service.model.AccessControlMode
+import com.android.system.updater.service.store.ServiceStore
+import com.android.system.updater.service.util.cancelAndJoinBlocking
+import com.android.system.updater.service.util.parseCIDR
+import com.android.system.updater.service.util.sendClashStarted
+import com.android.system.updater.service.util.sendClashStopped
 import kotlinx.coroutines.*
 import kotlinx.coroutines.selects.select
 

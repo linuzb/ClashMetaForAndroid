@@ -1,4 +1,4 @@
-package com.android.system.update.design.util
+package com.android.system.updater.design.util
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.util.TypedValue
 import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
-import com.android.system.update.common.compat.getDrawableCompat
-import com.android.system.update.design.R
+import com.android.system.updater.common.compat.getDrawableCompat
+import com.android.system.updater.design.R
 
 interface ClickableScope {
     fun focusable(defaultValue: Boolean): Boolean

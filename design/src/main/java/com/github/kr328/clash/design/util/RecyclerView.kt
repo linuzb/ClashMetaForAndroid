@@ -1,4 +1,4 @@
-package com.android.system.update.design.util
+package com.android.system.updater.design.util
 
 import android.content.Context
 import android.view.View
@@ -7,8 +7,8 @@ import androidx.databinding.Observable
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.update.design.BR
-import com.android.system.update.design.ui.Surface
+import com.android.system.updater.design.BR
+import com.android.system.updater.design.ui.Surface
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlin.reflect.KMutableProperty0
