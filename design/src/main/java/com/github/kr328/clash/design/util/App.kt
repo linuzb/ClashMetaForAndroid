@@ -1,9 +1,9 @@
-package com.android.system.update.design.util
+package com.android.system.updater.design.util
 
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
-import com.android.system.update.common.compat.foreground
-import com.android.system.update.design.model.AppInfo
+import com.android.system.updater.common.compat.foreground
+import com.android.system.updater.design.model.AppInfo
 
 fun PackageInfo.toAppInfo(pm: PackageManager): AppInfo {
     return AppInfo(

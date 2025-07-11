@@ -1,3 +1,3 @@
-package com.android.system.update.core.model
+package com.android.system.updater.core.model
 
 typealias Traffic = Long

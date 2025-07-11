@@ -1,4 +1,4 @@
-package com.android.system.update.design.model
+package com.android.system.updater.design.model
 
 data class File(
     val id: String,

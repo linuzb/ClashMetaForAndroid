@@ -1,11 +1,11 @@
-package com.android.system.update.design.dialog
+package com.android.system.updater.design.dialog
 
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.doOnTextChanged
-import com.android.system.update.design.R
-import com.android.system.update.design.databinding.DialogTextFieldBinding
-import com.android.system.update.design.util.*
+import com.android.system.updater.design.R
+import com.android.system.updater.design.databinding.DialogTextFieldBinding
+import com.android.system.updater.design.util.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume

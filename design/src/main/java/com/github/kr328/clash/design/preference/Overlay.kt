@@ -1,12 +1,12 @@
-package com.android.system.update.design.preference
+package com.android.system.updater.design.preference
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.update.design.databinding.DialogPreferenceListBinding
-import com.android.system.update.design.dialog.FullScreenDialog
-import com.android.system.update.design.util.applyLinearAdapter
-import com.android.system.update.design.util.layoutInflater
-import com.android.system.update.design.util.root
+import com.android.system.updater.design.databinding.DialogPreferenceListBinding
+import com.android.system.updater.design.dialog.FullScreenDialog
+import com.android.system.updater.design.util.applyLinearAdapter
+import com.android.system.updater.design.util.layoutInflater
+import com.android.system.updater.design.util.root
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine

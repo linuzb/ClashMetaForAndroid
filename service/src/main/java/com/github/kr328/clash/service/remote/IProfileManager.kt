@@ -1,6 +1,6 @@
-package com.android.system.update.service.remote
+package com.android.system.updater.service.remote
 
-import com.android.system.update.service.model.Profile
+import com.android.system.updater.service.model.Profile
 import com.github.kr328.kaidl.BinderInterface
 import java.util.*
 

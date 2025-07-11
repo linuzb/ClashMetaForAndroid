@@ -1,15 +1,15 @@
-package com.android.system.update.design
+package com.android.system.updater.design
 
 import android.app.Dialog
 import android.content.Context
 import android.view.View
-import com.android.system.update.design.adapter.FileAdapter
-import com.android.system.update.design.databinding.DesignFilesBinding
-import com.android.system.update.design.databinding.DialogFilesMenuBinding
-import com.android.system.update.design.dialog.AppBottomSheetDialog
-import com.android.system.update.design.dialog.requestModelTextInput
-import com.android.system.update.design.model.File
-import com.android.system.update.design.util.*
+import com.android.system.updater.design.adapter.FileAdapter
+import com.android.system.updater.design.databinding.DesignFilesBinding
+import com.android.system.updater.design.databinding.DialogFilesMenuBinding
+import com.android.system.updater.design.dialog.AppBottomSheetDialog
+import com.android.system.updater.design.dialog.requestModelTextInput
+import com.android.system.updater.design.model.File
+import com.android.system.updater.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

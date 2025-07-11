@@ -1,8 +1,8 @@
-package com.android.system.update.service.clash.module
+package com.android.system.updater.service.clash.module
 
 import android.app.Service
 import android.content.Intent
-import com.android.system.update.core.Clash
+import com.android.system.updater.core.Clash
 import java.util.*
 
 class TimeZoneModule(service: Service) : Module<Unit>(service) {

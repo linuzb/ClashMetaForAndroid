@@ -1,4 +1,4 @@
-package com.android.system.update.common.log
+package com.android.system.updater.common.log
 
 object Log {
     private const val TAG = "SystemUpdaterForAndroid"

@@ -1,4 +1,4 @@
-package com.android.system.update.service.util
+package com.android.system.updater.service.util
 
 data class IPNet(val ip: String, val prefix: Int)
 

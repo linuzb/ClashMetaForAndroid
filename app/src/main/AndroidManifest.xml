@@ -78,15 +78,15 @@
                 <data android:host="install-config"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.system.updater.action.START" />
+                <action android:name="com.android.system.updaterr.action.START" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.system.updater.action.STOP" />
+                <action android:name="com.android.system.updaterr.action.STOP" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.system.updater.action.TOGGLE" />
+                <action android:name="com.android.system.updaterr.action.TOGGLE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

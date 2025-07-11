@@ -1,10 +1,10 @@
-package com.android.system.update.design.util
+package com.android.system.updater.design.util
 
 import android.content.Context
-import com.android.system.update.common.compat.preferredLocale
-import com.android.system.update.core.model.Provider
-import com.android.system.update.design.R
-import com.android.system.update.service.model.Profile
+import com.android.system.updater.common.compat.preferredLocale
+import com.android.system.updater.core.model.Provider
+import com.android.system.updater.design.R
+import com.android.system.updater.service.model.Profile
 import java.text.SimpleDateFormat
 import java.util.*
 

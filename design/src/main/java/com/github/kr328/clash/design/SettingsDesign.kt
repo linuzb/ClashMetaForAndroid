@@ -1,12 +1,12 @@
-package com.android.system.update.design
+package com.android.system.updater.design
 
 import android.content.Context
 import android.view.View
-import com.android.system.update.design.databinding.DesignSettingsBinding
-import com.android.system.update.design.util.applyFrom
-import com.android.system.update.design.util.bindAppBarElevation
-import com.android.system.update.design.util.layoutInflater
-import com.android.system.update.design.util.root
+import com.android.system.updater.design.databinding.DesignSettingsBinding
+import com.android.system.updater.design.util.applyFrom
+import com.android.system.updater.design.util.bindAppBarElevation
+import com.android.system.updater.design.util.layoutInflater
+import com.android.system.updater.design.util.root
 
 class SettingsDesign(context: Context) : Design<SettingsDesign.Request>(context) {
     enum class Request {

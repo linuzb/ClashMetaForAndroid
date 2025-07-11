@@ -1,14 +1,14 @@
-package com.android.system.update.service.document
+package com.android.system.updater.service.document
 
 import android.content.Context
 import android.provider.DocumentsContract
-import com.android.system.update.service.R
-import com.android.system.update.service.data.ImportedDao
-import com.android.system.update.service.data.Pending
-import com.android.system.update.service.data.PendingDao
-import com.android.system.update.service.model.Profile
-import com.android.system.update.service.util.importedDir
-import com.android.system.update.service.util.pendingDir
+import com.android.system.updater.service.R
+import com.android.system.updater.service.data.ImportedDao
+import com.android.system.updater.service.data.Pending
+import com.android.system.updater.service.data.PendingDao
+import com.android.system.updater.service.model.Profile
+import com.android.system.updater.service.util.importedDir
+import com.android.system.updater.service.util.pendingDir
 import java.io.FileNotFoundException
 import java.util.*
 

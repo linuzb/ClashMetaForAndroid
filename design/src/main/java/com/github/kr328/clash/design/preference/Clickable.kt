@@ -1,12 +1,12 @@
-package com.android.system.update.design.preference
+package com.android.system.updater.design.preference
 
 import android.graphics.drawable.Drawable
 import android.view.View
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.android.system.update.common.compat.getDrawableCompat
-import com.android.system.update.design.databinding.PreferenceClickableBinding
-import com.android.system.update.design.util.layoutInflater
+import com.android.system.updater.common.compat.getDrawableCompat
+import com.android.system.updater.design.databinding.PreferenceClickableBinding
+import com.android.system.updater.design.util.layoutInflater
 
 interface ClickablePreference : Preference {
     var title: CharSequence

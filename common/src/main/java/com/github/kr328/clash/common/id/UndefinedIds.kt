@@ -1,4 +1,4 @@
-package com.android.system.update.common.id
+package com.android.system.updater.common.id
 
 object UndefinedIds {
     private const val PREFIX = 0x14000000

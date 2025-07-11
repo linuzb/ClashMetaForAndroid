@@ -1,9 +1,9 @@
-package com.android.system.update.core.model
+package com.android.system.updater.core.model
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.android.system.update.common.util.createListFromParcelSlice
-import com.android.system.update.common.util.writeToParcelSlice
+import com.android.system.updater.common.util.createListFromParcelSlice
+import com.android.system.updater.common.util.writeToParcelSlice
 import kotlinx.serialization.Serializable
 
 @Serializable

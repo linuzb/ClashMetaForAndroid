@@ -1,11 +1,11 @@
-package com.android.system.update.service.data
+package com.android.system.updater.service.data
 
 import android.content.Context
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.android.system.update.common.Global
-import com.android.system.update.service.data.migrations.LEGACY_MIGRATION
-import com.android.system.update.service.data.migrations.MIGRATIONS
+import com.android.system.updater.common.Global
+import com.android.system.updater.service.data.migrations.LEGACY_MIGRATION
+import com.android.system.updater.service.data.migrations.MIGRATIONS
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.lang.ref.SoftReference

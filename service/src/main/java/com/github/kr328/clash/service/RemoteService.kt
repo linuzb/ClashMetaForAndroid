@@ -1,12 +1,12 @@
-package com.android.system.update.service
+package com.android.system.updater.service
 
 import android.content.Intent
 import android.os.IBinder
-import com.android.system.update.service.remote.IClashManager
-import com.android.system.update.service.remote.IRemoteService
-import com.android.system.update.service.remote.IProfileManager
-import com.android.system.update.service.remote.wrap
-import com.android.system.update.service.util.cancelAndJoinBlocking
+import com.android.system.updater.service.remote.IClashManager
+import com.android.system.updater.service.remote.IRemoteService
+import com.android.system.updater.service.remote.IProfileManager
+import com.android.system.updater.service.remote.wrap
+import com.android.system.updater.service.util.cancelAndJoinBlocking
 
 class RemoteService : BaseService(), IRemoteService {
     private val binder = this.wrap()

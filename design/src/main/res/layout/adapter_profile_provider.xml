@@ -3,7 +3,7 @@
     <data>
         <variable
             name="provider"
-            type="com.android.system.update.design.model.ProfileProvider" />
+            type="com.android.system.updater.design.model.ProfileProvider" />
     </data>
 
     <LinearLayout

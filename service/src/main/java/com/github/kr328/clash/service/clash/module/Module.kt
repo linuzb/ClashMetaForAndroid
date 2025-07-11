@@ -1,13 +1,13 @@
-package com.android.system.update.service.clash.module
+package com.android.system.updater.service.clash.module
 
 import android.app.Service
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import com.android.system.update.common.compat.registerReceiverCompat
-import com.android.system.update.common.constants.Permissions
-import com.android.system.update.common.log.Log
+import com.android.system.updater.common.compat.registerReceiverCompat
+import com.android.system.updater.common.constants.Permissions
+import com.android.system.updater.common.log.Log
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel

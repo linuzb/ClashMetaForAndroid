@@ -35,12 +35,12 @@ subprojects {
         buildFeatures.buildConfig = true
         defaultConfig {
             if (isApp) {
-                applicationId = "com.android.system.updater"
+                applicationId = "com.android.system.updaterr"
             }
 
             project.name.let { name ->
-                namespace = if (name == "app") "com.android.system.update"
-                else "com.android.system.update.$name"
+                namespace = if (name == "app") "com.android.system.updater"
+                else "com.android.system.updater.$name"
             }
 
             minSdk = 21

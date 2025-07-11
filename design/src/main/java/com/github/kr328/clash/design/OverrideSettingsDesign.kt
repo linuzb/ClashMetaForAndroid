@@ -1,16 +1,16 @@
-package com.android.system.update.design
+package com.android.system.updater.design
 
 import android.content.Context
 import android.view.View
-import com.android.system.update.core.model.ConfigurationOverride
-import com.android.system.update.core.model.LogMessage
-import com.android.system.update.core.model.TunnelState
-import com.android.system.update.design.databinding.DesignSettingsOverideBinding
-import com.android.system.update.design.databinding.DialogPreferenceListBinding
-import com.android.system.update.design.dialog.FullScreenDialog
-import com.android.system.update.design.model.AppInfo
-import com.android.system.update.design.preference.*
-import com.android.system.update.design.util.*
+import com.android.system.updater.core.model.ConfigurationOverride
+import com.android.system.updater.core.model.LogMessage
+import com.android.system.updater.core.model.TunnelState
+import com.android.system.updater.design.databinding.DesignSettingsOverideBinding
+import com.android.system.updater.design.databinding.DialogPreferenceListBinding
+import com.android.system.updater.design.dialog.FullScreenDialog
+import com.android.system.updater.design.model.AppInfo
+import com.android.system.updater.design.preference.*
+import com.android.system.updater.design.util.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.suspendCancellableCoroutine

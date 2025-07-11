@@ -1,4 +1,4 @@
-package com.android.system.update.common.util
+package com.android.system.updater.common.util
 
 import android.content.Intent
 import android.net.Uri

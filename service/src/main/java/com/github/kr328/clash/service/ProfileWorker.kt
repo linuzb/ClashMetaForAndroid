@@ -1,4 +1,4 @@
-package com.android.system.update.service
+package com.android.system.updater.service
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -7,17 +7,17 @@ import android.os.IBinder
 import androidx.core.app.NotificationChannelCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.android.system.update.common.compat.getColorCompat
-import com.android.system.update.common.compat.pendingIntentFlags
-import com.android.system.update.common.compat.startForegroundCompat
-import com.android.system.update.common.constants.Components
-import com.android.system.update.common.constants.Intents
-import com.android.system.update.common.id.UndefinedIds
-import com.android.system.update.common.util.setUUID
-import com.android.system.update.common.util.uuid
-import com.android.system.update.service.data.ImportedDao
-import com.android.system.update.service.util.sendProfileUpdateCompleted
-import com.android.system.update.service.util.sendProfileUpdateFailed
+import com.android.system.updater.common.compat.getColorCompat
+import com.android.system.updater.common.compat.pendingIntentFlags
+import com.android.system.updater.common.compat.startForegroundCompat
+import com.android.system.updater.common.constants.Components
+import com.android.system.updater.common.constants.Intents
+import com.android.system.updater.common.id.UndefinedIds
+import com.android.system.updater.common.util.setUUID
+import com.android.system.updater.common.util.uuid
+import com.android.system.updater.service.data.ImportedDao
+import com.android.system.updater.service.util.sendProfileUpdateCompleted
+import com.android.system.updater.service.util.sendProfileUpdateFailed
 import kotlinx.coroutines.*
 import java.util.*
 import java.util.concurrent.TimeUnit

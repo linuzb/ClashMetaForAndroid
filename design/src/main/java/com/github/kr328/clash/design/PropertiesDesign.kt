@@ -1,14 +1,14 @@
-package com.android.system.update.design
+package com.android.system.updater.design
 
 import android.content.Context
 import android.view.View
-import com.android.system.update.core.model.FetchStatus
-import com.android.system.update.design.databinding.DesignPropertiesBinding
-import com.android.system.update.design.dialog.ModelProgressBarConfigure
-import com.android.system.update.design.dialog.requestModelTextInput
-import com.android.system.update.design.dialog.withModelProgressBar
-import com.android.system.update.design.util.*
-import com.android.system.update.service.model.Profile
+import com.android.system.updater.core.model.FetchStatus
+import com.android.system.updater.design.databinding.DesignPropertiesBinding
+import com.android.system.updater.design.dialog.ModelProgressBarConfigure
+import com.android.system.updater.design.dialog.requestModelTextInput
+import com.android.system.updater.design.dialog.withModelProgressBar
+import com.android.system.updater.design.util.*
+import com.android.system.updater.service.model.Profile
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

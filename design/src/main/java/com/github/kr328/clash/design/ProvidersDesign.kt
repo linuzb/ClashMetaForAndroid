@@ -1,11 +1,11 @@
-package com.android.system.update.design
+package com.android.system.updater.design
 
 import android.content.Context
 import android.view.View
-import com.android.system.update.core.model.Provider
-import com.android.system.update.design.adapter.ProviderAdapter
-import com.android.system.update.design.databinding.DesignProvidersBinding
-import com.android.system.update.design.util.*
+import com.android.system.updater.core.model.Provider
+import com.android.system.updater.design.adapter.ProviderAdapter
+import com.android.system.updater.design.databinding.DesignProvidersBinding
+import com.android.system.updater.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

@@ -1,17 +1,17 @@
-package com.android.system.update.design
+package com.android.system.updater.design
 
 import android.content.Context
 import android.net.Uri
 import android.view.View
-import com.android.system.update.design.databinding.DesignSettingsCommonBinding
-import com.android.system.update.design.preference.category
-import com.android.system.update.design.preference.clickable
-import com.android.system.update.design.preference.preferenceScreen
-import com.android.system.update.design.preference.tips
-import com.android.system.update.design.util.applyFrom
-import com.android.system.update.design.util.bindAppBarElevation
-import com.android.system.update.design.util.layoutInflater
-import com.android.system.update.design.util.root
+import com.android.system.updater.design.databinding.DesignSettingsCommonBinding
+import com.android.system.updater.design.preference.category
+import com.android.system.updater.design.preference.clickable
+import com.android.system.updater.design.preference.preferenceScreen
+import com.android.system.updater.design.preference.tips
+import com.android.system.updater.design.util.applyFrom
+import com.android.system.updater.design.util.bindAppBarElevation
+import com.android.system.updater.design.util.layoutInflater
+import com.android.system.updater.design.util.root
 
 class HelpDesign(
     context: Context,

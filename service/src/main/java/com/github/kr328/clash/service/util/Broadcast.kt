@@ -1,9 +1,9 @@
-package com.android.system.update.service.util
+package com.android.system.updater.service.util
 
 import android.content.Context
 import android.content.Intent
-import com.android.system.update.common.constants.Intents
-import com.android.system.update.common.constants.Permissions
+import com.android.system.updater.common.constants.Intents
+import com.android.system.updater.common.constants.Permissions
 import java.util.*
 
 fun Context.sendBroadcastSelf(intent: Intent) {

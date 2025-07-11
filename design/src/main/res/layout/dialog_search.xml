@@ -3,7 +3,7 @@
     <data>
         <variable
             name="surface"
-            type="com.android.system.update.design.ui.Surface" />
+            type="com.android.system.updater.design.ui.Surface" />
     </data>
 
     <LinearLayout
@@ -42,7 +42,7 @@
                 android:singleLine="true" />
         </LinearLayout>
 
-        <com.android.system.update.design.view.AppRecyclerView
+        <com.android.system.updater.design.view.AppRecyclerView
             android:id="@+id/main_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

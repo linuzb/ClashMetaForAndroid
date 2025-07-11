@@ -1,7 +1,7 @@
-package com.android.system.update.service.remote
+package com.android.system.updater.service.remote
 
-import com.android.system.update.core.Clash
-import com.android.system.update.core.model.*
+import com.android.system.updater.core.Clash
+import com.android.system.updater.core.model.*
 import com.github.kr328.kaidl.BinderInterface
 
 @BinderInterface

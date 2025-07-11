@@ -1,12 +1,12 @@
-package com.android.system.update.design.adapter
+package com.android.system.updater.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.update.design.databinding.AdapterFileBinding
-import com.android.system.update.design.model.File
-import com.android.system.update.design.ui.ObservableCurrentTime
-import com.android.system.update.design.util.layoutInflater
+import com.android.system.updater.design.databinding.AdapterFileBinding
+import com.android.system.updater.design.model.File
+import com.android.system.updater.design.ui.ObservableCurrentTime
+import com.android.system.updater.design.util.layoutInflater
 
 class FileAdapter(
     private val context: Context,

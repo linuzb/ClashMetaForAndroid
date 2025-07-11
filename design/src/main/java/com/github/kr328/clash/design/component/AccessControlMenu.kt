@@ -1,13 +1,13 @@
-package com.android.system.update.design.component
+package com.android.system.updater.design.component
 
 import android.content.Context
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
-import com.android.system.update.design.AccessControlDesign.Request
-import com.android.system.update.design.R
-import com.android.system.update.design.model.AppInfoSort
-import com.android.system.update.design.store.UiStore
+import com.android.system.updater.design.AccessControlDesign.Request
+import com.android.system.updater.design.R
+import com.android.system.updater.design.model.AppInfoSort
+import com.android.system.updater.design.store.UiStore
 import kotlinx.coroutines.channels.Channel
 
 class AccessControlMenu(

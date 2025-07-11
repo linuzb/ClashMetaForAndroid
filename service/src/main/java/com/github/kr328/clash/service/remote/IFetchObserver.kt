@@ -1,6 +1,6 @@
-package com.android.system.update.service.remote
+package com.android.system.updater.service.remote
 
-import com.android.system.update.core.model.FetchStatus
+import com.android.system.updater.core.model.FetchStatus
 import com.github.kr328.kaidl.BinderInterface
 
 @BinderInterface

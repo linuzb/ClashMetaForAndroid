@@ -1,8 +1,8 @@
-package com.android.system.update.core.model
+package com.android.system.updater.core.model
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.android.system.update.core.util.Parcelizer
+import com.android.system.updater.core.util.Parcelizer
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

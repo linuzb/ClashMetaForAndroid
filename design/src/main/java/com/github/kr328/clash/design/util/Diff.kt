@@ -1,4 +1,4 @@
-package com.android.system.update.design.util
+package com.android.system.updater.design.util
 
 import androidx.recyclerview.widget.DiffUtil
 

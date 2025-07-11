@@ -1,4 +1,4 @@
-package com.android.system.update.service.document
+package com.android.system.updater.service.document
 
 interface Document {
     val id: String
