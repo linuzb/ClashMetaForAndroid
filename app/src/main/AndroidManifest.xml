@@ -18,7 +18,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
 
     <application
-        android:name=".MainApplication"
+        android:name="com.github.android.updater.MainApplication"
         android:allowBackup="true"
         android:banner="@mipmap/ic_banner"
         android:fullBackupContent="@xml/full_backup_content"
