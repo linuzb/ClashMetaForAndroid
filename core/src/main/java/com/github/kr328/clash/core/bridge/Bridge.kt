@@ -1,10 +1,10 @@
-package com.github.android.system.updater.core.bridge
+package com.github.android.updater.core.bridge
 
 import android.os.Build
 import android.os.ParcelFileDescriptor
 import androidx.annotation.Keep
-import com.github.android.system.updater.common.Global
-import com.github.android.system.updater.common.log.Log
+import com.github.android.updater.common.Global
+import com.github.android.updater.common.log.Log
 import kotlinx.coroutines.CompletableDeferred
 import java.io.File
 

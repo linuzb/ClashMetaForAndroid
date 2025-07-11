@@ -3,7 +3,7 @@
     <data>
         <variable
             name="appInfo"
-            type="com.github.android.system.updater.design.model.AppInfo" />
+            type="com.github.android.updater.design.model.AppInfo" />
         <variable
             name="selected"
             type="boolean" />

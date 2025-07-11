@@ -1,9 +1,9 @@
-package com.github.android.system.updater.design.preference
+package com.github.android.updater.design.preference
 
 import android.view.View
 import androidx.annotation.StringRes
-import com.github.android.system.updater.design.databinding.PreferenceCategoryBinding
-import com.github.android.system.updater.design.util.layoutInflater
+import com.github.android.updater.design.databinding.PreferenceCategoryBinding
+import com.github.android.updater.design.util.layoutInflater
 
 fun PreferenceScreen.category(
     @StringRes text: Int,

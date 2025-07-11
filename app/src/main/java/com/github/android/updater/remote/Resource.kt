@@ -1,4 +1,4 @@
-package com.github.android.system.updater.remote
+package com.github.android.updater.remote
 
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume

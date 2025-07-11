@@ -1,7 +1,7 @@
-package com.github.android.system.updater.log
+package com.github.android.updater.log
 
 import androidx.collection.CircularArray
-import com.github.android.system.updater.core.model.LogMessage
+import com.github.android.updater.core.model.LogMessage
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 

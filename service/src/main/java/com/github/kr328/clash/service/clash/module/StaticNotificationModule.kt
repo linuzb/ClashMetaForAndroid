@@ -1,4 +1,4 @@
-package com.github.android.system.updater.service.clash.module
+package com.github.android.updater.service.clash.module
 
 import android.app.PendingIntent
 import android.app.Service
@@ -6,13 +6,13 @@ import android.content.Intent
 import androidx.core.app.NotificationChannelCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.github.android.system.updater.common.compat.getColorCompat
-import com.github.android.system.updater.common.compat.pendingIntentFlags
-import com.github.android.system.updater.common.compat.startForegroundCompat
-import com.github.android.system.updater.common.constants.Components
-import com.github.android.system.updater.common.constants.Intents
-import com.github.android.system.updater.service.R
-import com.github.android.system.updater.service.StatusProvider
+import com.github.android.updater.common.compat.getColorCompat
+import com.github.android.updater.common.compat.pendingIntentFlags
+import com.github.android.updater.common.compat.startForegroundCompat
+import com.github.android.updater.common.constants.Components
+import com.github.android.updater.common.constants.Intents
+import com.github.android.updater.service.R
+import com.github.android.updater.service.StatusProvider
 import kotlinx.coroutines.channels.Channel
 
 class StaticNotificationModule(service: Service) : Module<Unit>(service) {

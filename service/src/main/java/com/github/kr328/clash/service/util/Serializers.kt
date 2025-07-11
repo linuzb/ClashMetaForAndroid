@@ -1,4 +1,4 @@
-package com.github.android.system.updater.service.util
+package com.github.android.updater.service.util
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.PrimitiveKind

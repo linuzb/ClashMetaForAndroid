@@ -1,7 +1,7 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
-import com.github.android.system.updater.common.util.intent
-import com.github.android.system.updater.design.SettingsDesign
+import com.github.android.updater.common.util.intent
+import com.github.android.updater.design.SettingsDesign
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 

@@ -1,11 +1,11 @@
-package com.github.android.system.updater.service.clash.module
+package com.github.android.updater.service.clash.module
 
 import android.net.ConnectivityManager
 import android.net.VpnService
 import android.os.Build
 import androidx.core.content.getSystemService
-import com.github.android.system.updater.core.Clash
-import com.github.android.system.updater.core.util.parseInetSocketAddress
+import com.github.android.updater.core.Clash
+import com.github.android.updater.core.util.parseInetSocketAddress
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.withContext

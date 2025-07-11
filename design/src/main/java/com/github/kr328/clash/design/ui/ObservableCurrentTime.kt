@@ -1,4 +1,4 @@
-package com.github.android.system.updater.design.ui
+package com.github.android.updater.design.ui
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable

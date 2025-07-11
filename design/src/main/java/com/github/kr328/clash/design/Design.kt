@@ -1,11 +1,11 @@
-package com.github.android.system.updater.design
+package com.github.android.updater.design
 
 import android.content.Context
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.github.android.system.updater.design.ui.Surface
-import com.github.android.system.updater.design.ui.ToastDuration
-import com.github.android.system.updater.design.util.setOnInsertsChangedListener
+import com.github.android.updater.design.ui.Surface
+import com.github.android.updater.design.ui.ToastDuration
+import com.github.android.updater.design.util.setOnInsertsChangedListener
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -1,4 +1,4 @@
-package com.github.android.system.updater.service
+package com.github.android.updater.service
 
 import android.annotation.TargetApi
 import android.app.PendingIntent
@@ -6,17 +6,17 @@ import android.content.Intent
 import android.net.ProxyInfo
 import android.net.VpnService
 import android.os.Build
-import com.github.android.system.updater.common.compat.pendingIntentFlags
-import com.github.android.system.updater.common.constants.Components
-import com.github.android.system.updater.common.log.Log
-import com.github.android.system.updater.service.clash.clashRuntime
-import com.github.android.system.updater.service.clash.module.*
-import com.github.android.system.updater.service.model.AccessControlMode
-import com.github.android.system.updater.service.store.ServiceStore
-import com.github.android.system.updater.service.util.cancelAndJoinBlocking
-import com.github.android.system.updater.service.util.parseCIDR
-import com.github.android.system.updater.service.util.sendClashStarted
-import com.github.android.system.updater.service.util.sendClashStopped
+import com.github.android.updater.common.compat.pendingIntentFlags
+import com.github.android.updater.common.constants.Components
+import com.github.android.updater.common.log.Log
+import com.github.android.updater.service.clash.clashRuntime
+import com.github.android.updater.service.clash.module.*
+import com.github.android.updater.service.model.AccessControlMode
+import com.github.android.updater.service.store.ServiceStore
+import com.github.android.updater.service.util.cancelAndJoinBlocking
+import com.github.android.updater.service.util.parseCIDR
+import com.github.android.updater.service.util.sendClashStarted
+import com.github.android.updater.service.util.sendClashStopped
 import kotlinx.coroutines.*
 import kotlinx.coroutines.selects.select
 

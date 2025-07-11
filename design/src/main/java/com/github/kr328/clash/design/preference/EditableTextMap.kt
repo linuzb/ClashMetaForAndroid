@@ -1,13 +1,13 @@
-package com.github.android.system.updater.design.preference
+package com.github.android.updater.design.preference
 
 import android.content.Context
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.github.android.system.updater.design.R
-import com.github.android.system.updater.design.adapter.EditableTextMapAdapter
-import com.github.android.system.updater.design.databinding.DialogEditableMapTextFieldBinding
-import com.github.android.system.updater.design.util.layoutInflater
-import com.github.android.system.updater.design.util.root
+import com.github.android.updater.design.R
+import com.github.android.updater.design.adapter.EditableTextMapAdapter
+import com.github.android.updater.design.databinding.DialogEditableMapTextFieldBinding
+import com.github.android.updater.design.util.layoutInflater
+import com.github.android.updater.design.util.root
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.*
 import kotlin.coroutines.resume

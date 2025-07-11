@@ -1,4 +1,4 @@
-package com.github.android.system.updater.design.adapter
+package com.github.android.updater.design.adapter
 
 import android.content.Context
 import android.graphics.Color
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
-import com.github.android.system.updater.design.R
-import com.github.android.system.updater.design.util.layoutInflater
-import com.github.android.system.updater.design.util.resolveThemedColor
+import com.github.android.updater.design.R
+import com.github.android.updater.design.util.layoutInflater
+import com.github.android.updater.design.util.resolveThemedColor
 
 class PopupListAdapter(
     private val context: Context,

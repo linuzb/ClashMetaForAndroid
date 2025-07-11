@@ -1,4 +1,4 @@
-package com.github.android.system.updater.common
+package com.github.android.updater.common
 
 import android.app.Application
 import kotlinx.coroutines.CoroutineScope

@@ -1,15 +1,15 @@
-package com.github.android.system.updater.remote
+package com.github.android.updater.remote
 
 import android.content.Context
 import android.content.Intent
-import com.github.android.system.updater.ApkBrokenActivity
-import com.github.android.system.updater.AppCrashedActivity
-import com.github.android.system.updater.common.Global
-import com.github.android.system.updater.common.log.Log
-import com.github.android.system.updater.common.util.intent
-import com.github.android.system.updater.store.AppStore
-import com.github.android.system.updater.util.ApplicationObserver
-import com.github.android.system.updater.util.verifyApk
+import com.github.android.updater.ApkBrokenActivity
+import com.github.android.updater.AppCrashedActivity
+import com.github.android.updater.common.Global
+import com.github.android.updater.common.log.Log
+import com.github.android.updater.common.util.intent
+import com.github.android.updater.store.AppStore
+import com.github.android.updater.util.ApplicationObserver
+import com.github.android.updater.util.verifyApk
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.launch

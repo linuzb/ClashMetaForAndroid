@@ -1,11 +1,11 @@
-package com.github.android.system.updater.design.store
+package com.github.android.updater.design.store
 
 import android.content.Context
-import com.github.android.system.updater.common.store.Store
-import com.github.android.system.updater.common.store.asStoreProvider
-import com.github.android.system.updater.core.model.ProxySort
-import com.github.android.system.updater.design.model.AppInfoSort
-import com.github.android.system.updater.design.model.DarkMode
+import com.github.android.updater.common.store.Store
+import com.github.android.updater.common.store.asStoreProvider
+import com.github.android.updater.core.model.ProxySort
+import com.github.android.updater.design.model.AppInfoSort
+import com.github.android.updater.design.model.DarkMode
 
 class UiStore(context: Context) {
     private val store = Store(

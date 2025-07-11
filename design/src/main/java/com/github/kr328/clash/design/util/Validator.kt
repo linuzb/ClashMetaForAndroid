@@ -1,6 +1,6 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
-import com.github.android.system.updater.common.util.PatternFileName
+import com.github.android.updater.common.util.PatternFileName
 
 typealias Validator = (String) -> Boolean
 

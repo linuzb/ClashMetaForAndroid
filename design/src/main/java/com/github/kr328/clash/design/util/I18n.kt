@@ -1,10 +1,10 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
 import android.content.Context
-import com.github.android.system.updater.common.compat.preferredLocale
-import com.github.android.system.updater.core.model.Provider
-import com.github.android.system.updater.design.R
-import com.github.android.system.updater.service.model.Profile
+import com.github.android.updater.common.compat.preferredLocale
+import com.github.android.updater.core.model.Provider
+import com.github.android.updater.design.R
+import com.github.android.updater.service.model.Profile
 import java.text.SimpleDateFormat
 import java.util.*
 

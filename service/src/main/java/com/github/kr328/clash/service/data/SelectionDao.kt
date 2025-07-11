@@ -1,4 +1,4 @@
-package com.github.android.system.updater.service.data
+package com.github.android.updater.service.data
 
 import androidx.room.*
 import java.util.*

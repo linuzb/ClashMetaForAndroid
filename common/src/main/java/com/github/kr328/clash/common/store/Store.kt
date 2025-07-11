@@ -1,4 +1,4 @@
-package com.github.android.system.updater.common.store
+package com.github.android.updater.common.store
 
 import kotlin.reflect.KProperty
 

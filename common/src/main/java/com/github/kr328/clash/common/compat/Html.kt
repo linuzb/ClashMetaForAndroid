@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.github.android.system.updater.common.compat
+package com.github.android.updater.common.compat
 
 import android.os.Build
 import android.text.Html

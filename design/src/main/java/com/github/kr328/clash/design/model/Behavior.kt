@@ -1,4 +1,4 @@
-package com.github.android.system.updater.design.model
+package com.github.android.updater.design.model
 
 interface Behavior {
     var autoRestart: Boolean

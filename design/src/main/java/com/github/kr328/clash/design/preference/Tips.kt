@@ -1,11 +1,11 @@
-package com.github.android.system.updater.design.preference
+package com.github.android.updater.design.preference
 
 import android.view.View
 import androidx.annotation.StringRes
-import com.github.android.system.updater.design.databinding.PreferenceTipsBinding
-import com.github.android.system.updater.design.util.getHtml
-import com.github.android.system.updater.design.util.layoutInflater
-import com.github.android.system.updater.design.util.root
+import com.github.android.updater.design.databinding.PreferenceTipsBinding
+import com.github.android.updater.design.util.getHtml
+import com.github.android.updater.design.util.layoutInflater
+import com.github.android.updater.design.util.root
 
 interface TipsPreference : Preference {
     var text: CharSequence?

@@ -209,7 +209,7 @@
     <string name="tips_properties"><![CDATA[Принимается только <strong>конфиг Clash</strong> (включая <strong>Прокси</strong>/<strong>Правила</strong>)]]></string>
     <string name="tips_help"><![CDATA[System Updater для Android — <strong>бесплатен</strong> и мы <strong>НЕ</strong> предоставляем по нему поддержку]]></string>
 
-    <string name="google_play_url" translatable="false">https://play.google.com/store/apps/details?id=com.github.android.system.updater</string>
+    <string name="google_play_url" translatable="false">https://play.google.com/store/apps/details?id=com.github.android.updater</string>
 
     <string name="app">Приложение</string>
     <string name="service">Сервис</string>

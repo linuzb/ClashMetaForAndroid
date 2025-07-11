@@ -1,4 +1,4 @@
-package com.github.android.system.updater.service.document
+package com.github.android.updater.service.document
 
 enum class Flag {
     Writable, Deletable, Virtual

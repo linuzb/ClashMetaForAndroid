@@ -1,5 +1,5 @@
-package com.github.android.system.updater.common.util
+package com.github.android.updater.common.util
 
-import com.github.android.system.updater.common.Global
+import com.github.android.updater.common.Global
 
 val packageName: String = Global.application.packageName

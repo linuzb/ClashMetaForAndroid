@@ -1,17 +1,17 @@
-package com.github.android.system.updater.design
+package com.github.android.updater.design
 
 import android.content.Context
 import android.view.View
-import com.github.android.system.updater.design.databinding.DesignSettingsCommonBinding
-import com.github.android.system.updater.design.model.Behavior
-import com.github.android.system.updater.design.model.DarkMode
-import com.github.android.system.updater.design.preference.*
-import com.github.android.system.updater.design.store.UiStore
-import com.github.android.system.updater.design.util.applyFrom
-import com.github.android.system.updater.design.util.bindAppBarElevation
-import com.github.android.system.updater.design.util.layoutInflater
-import com.github.android.system.updater.design.util.root
-import com.github.android.system.updater.service.store.ServiceStore
+import com.github.android.updater.design.databinding.DesignSettingsCommonBinding
+import com.github.android.updater.design.model.Behavior
+import com.github.android.updater.design.model.DarkMode
+import com.github.android.updater.design.preference.*
+import com.github.android.updater.design.store.UiStore
+import com.github.android.updater.design.util.applyFrom
+import com.github.android.updater.design.util.bindAppBarElevation
+import com.github.android.updater.design.util.layoutInflater
+import com.github.android.updater.design.util.root
+import com.github.android.updater.service.store.ServiceStore
 
 class AppSettingsDesign(
     context: Context,

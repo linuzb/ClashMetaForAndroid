@@ -1,4 +1,4 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
 import android.content.Context
 import android.view.View

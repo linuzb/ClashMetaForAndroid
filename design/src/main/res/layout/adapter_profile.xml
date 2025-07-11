@@ -3,10 +3,10 @@
     <data>
         <variable
             name="profile"
-            type="com.github.android.system.updater.service.model.Profile" />
+            type="com.github.android.updater.service.model.Profile" />
         <variable
             name="currentTime"
-            type="com.github.android.system.updater.design.ui.ObservableCurrentTime" />
+            type="com.github.android.updater.design.ui.ObservableCurrentTime" />
         <variable
             name="clicked"
             type="android.view.View.OnClickListener" />
@@ -14,8 +14,8 @@
             name="menu"
             type="android.view.View.OnClickListener" />
         <import type="android.view.View" />
-        <import type="com.github.android.system.updater.design.util.I18nKt" />
-        <import type="com.github.android.system.updater.design.util.IntervalKt" />
+        <import type="com.github.android.updater.design.util.I18nKt" />
+        <import type="com.github.android.updater.design.util.IntervalKt" />
     </data>
 
     <RelativeLayout

@@ -1,4 +1,4 @@
-package com.github.android.system.updater.util
+package com.github.android.updater.util
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner

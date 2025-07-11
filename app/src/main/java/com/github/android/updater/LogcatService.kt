@@ -1,4 +1,4 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.app.PendingIntent
 import android.app.Service
@@ -12,19 +12,19 @@ import android.os.IInterface
 import androidx.core.app.NotificationChannelCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.github.android.system.updater.common.compat.getColorCompat
-import com.github.android.system.updater.common.compat.pendingIntentFlags
-import com.github.android.system.updater.common.compat.startForegroundCompat
-import com.github.android.system.updater.common.log.Log
-import com.github.android.system.updater.common.util.intent
-import com.github.android.system.updater.core.model.LogMessage
-import com.github.android.system.updater.log.LogcatCache
-import com.github.android.system.updater.log.LogcatWriter
-import com.github.android.system.updater.service.RemoteService
-import com.github.android.system.updater.service.remote.ILogObserver
-import com.github.android.system.updater.service.remote.IRemoteService
-import com.github.android.system.updater.service.remote.unwrap
-import com.github.android.system.updater.util.logsDir
+import com.github.android.updater.common.compat.getColorCompat
+import com.github.android.updater.common.compat.pendingIntentFlags
+import com.github.android.updater.common.compat.startForegroundCompat
+import com.github.android.updater.common.log.Log
+import com.github.android.updater.common.util.intent
+import com.github.android.updater.core.model.LogMessage
+import com.github.android.updater.log.LogcatCache
+import com.github.android.updater.log.LogcatWriter
+import com.github.android.updater.service.RemoteService
+import com.github.android.updater.service.remote.ILogObserver
+import com.github.android.updater.service.remote.IRemoteService
+import com.github.android.updater.service.remote.unwrap
+import com.github.android.updater.util.logsDir
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import java.io.IOException
@@ -131,17 +131,17 @@ class LogcatService : Service(), CoroutineScope by CoroutineScope(Dispatchers.De
                 NotificationChannelCompat.Builder(
                     CHANNEL_ID,
                     NotificationManagerCompat.IMPORTANCE_DEFAULT
-                ).setName(getString(com.github.android.system.updater.design.R.string.updater_logcat)).build()
+                ).setName(getString(com.github.android.updater.design.R.string.updater_logcat)).build()
             )
     }
 
     private fun showNotification() {
         val notification = NotificationCompat
             .Builder(this, CHANNEL_ID)
-            .setSmallIcon(com.github.android.system.updater.service.R.drawable.ic_logo_service)
-            .setColor(getColorCompat(com.github.android.system.updater.design.R.color.color_clash_light))
-            .setContentTitle(getString(com.github.android.system.updater.design.R.string.updater_logcat))
-            .setContentText(getString(com.github.android.system.updater.design.R.string.running))
+            .setSmallIcon(com.github.android.updater.service.R.drawable.ic_logo_service)
+            .setColor(getColorCompat(com.github.android.updater.design.R.color.color_clash_light))
+            .setContentTitle(getString(com.github.android.updater.design.R.string.updater_logcat))
+            .setContentText(getString(com.github.android.updater.design.R.string.running))
             .setContentIntent(
                 PendingIntent.getActivity(
                     this,

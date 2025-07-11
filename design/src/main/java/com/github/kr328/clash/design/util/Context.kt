@@ -1,4 +1,4 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
 import android.app.Activity
 import android.content.Context
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
-import com.github.android.system.updater.common.compat.fromHtmlCompat
+import com.github.android.updater.common.compat.fromHtmlCompat
 
 val Context.layoutInflater: LayoutInflater
     get() = LayoutInflater.from(this)

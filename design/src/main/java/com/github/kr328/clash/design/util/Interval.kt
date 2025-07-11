@@ -1,7 +1,7 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
 import android.content.Context
-import com.github.android.system.updater.design.R
+import com.github.android.updater.design.R
 import java.util.concurrent.TimeUnit
 
 fun Long.elapsedIntervalString(context: Context): String {

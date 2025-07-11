@@ -1,10 +1,10 @@
-package com.github.android.system.updater.service.store
+package com.github.android.updater.service.store
 
 import android.content.Context
-import com.github.android.system.updater.common.store.Store
-import com.github.android.system.updater.common.store.asStoreProvider
-import com.github.android.system.updater.service.PreferenceProvider
-import com.github.android.system.updater.service.model.AccessControlMode
+import com.github.android.updater.common.store.Store
+import com.github.android.updater.common.store.asStoreProvider
+import com.github.android.updater.service.PreferenceProvider
+import com.github.android.updater.service.model.AccessControlMode
 import java.util.*
 
 class ServiceStore(context: Context) {

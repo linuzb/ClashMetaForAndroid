@@ -1,15 +1,15 @@
-package com.github.android.system.updater.service
+package com.github.android.updater.service
 
 import android.content.Intent
 import android.os.Binder
 import android.os.IBinder
-import com.github.android.system.updater.common.log.Log
-import com.github.android.system.updater.service.clash.clashRuntime
-import com.github.android.system.updater.service.clash.module.*
-import com.github.android.system.updater.service.store.ServiceStore
-import com.github.android.system.updater.service.util.cancelAndJoinBlocking
-import com.github.android.system.updater.service.util.sendClashStarted
-import com.github.android.system.updater.service.util.sendClashStopped
+import com.github.android.updater.common.log.Log
+import com.github.android.updater.service.clash.clashRuntime
+import com.github.android.updater.service.clash.module.*
+import com.github.android.updater.service.store.ServiceStore
+import com.github.android.updater.service.util.cancelAndJoinBlocking
+import com.github.android.updater.service.util.sendClashStarted
+import com.github.android.updater.service.util.sendClashStopped
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
