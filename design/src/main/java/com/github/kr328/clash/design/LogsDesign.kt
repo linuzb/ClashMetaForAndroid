@@ -1,11 +1,11 @@
-package com.android.system.updater.design
+package com.github.android.system.updater.design
 
 import android.content.Context
 import android.view.View
-import com.android.system.updater.design.adapter.LogFileAdapter
-import com.android.system.updater.design.databinding.DesignLogsBinding
-import com.android.system.updater.design.model.LogFile
-import com.android.system.updater.design.util.*
+import com.github.android.system.updater.design.adapter.LogFileAdapter
+import com.github.android.system.updater.design.databinding.DesignLogsBinding
+import com.github.android.system.updater.design.model.LogFile
+import com.github.android.system.updater.design.util.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.suspendCancellableCoroutine

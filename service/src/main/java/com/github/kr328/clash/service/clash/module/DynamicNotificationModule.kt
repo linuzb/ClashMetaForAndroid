@@ -1,4 +1,4 @@
-package com.android.system.updater.service.clash.module
+package com.github.android.system.updater.service.clash.module
 
 import android.app.PendingIntent
 import android.app.Service
@@ -7,16 +7,16 @@ import android.os.PowerManager
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.getSystemService
-import com.android.system.updater.common.compat.getColorCompat
-import com.android.system.updater.common.compat.pendingIntentFlags
-import com.android.system.updater.common.constants.Components
-import com.android.system.updater.common.constants.Intents
-import com.android.system.updater.common.util.ticker
-import com.android.system.updater.core.Clash
-import com.android.system.updater.core.util.trafficDownload
-import com.android.system.updater.core.util.trafficUpload
-import com.android.system.updater.service.R
-import com.android.system.updater.service.StatusProvider
+import com.github.android.system.updater.common.compat.getColorCompat
+import com.github.android.system.updater.common.compat.pendingIntentFlags
+import com.github.android.system.updater.common.constants.Components
+import com.github.android.system.updater.common.constants.Intents
+import com.github.android.system.updater.common.util.ticker
+import com.github.android.system.updater.core.Clash
+import com.github.android.system.updater.core.util.trafficDownload
+import com.github.android.system.updater.core.util.trafficUpload
+import com.github.android.system.updater.service.R
+import com.github.android.system.updater.service.StatusProvider
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.selects.select

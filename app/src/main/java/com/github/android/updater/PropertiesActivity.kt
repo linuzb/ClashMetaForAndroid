@@ -1,18 +1,18 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
-import com.android.system.updater.common.util.intent
-import com.android.system.updater.common.util.setUUID
-import com.android.system.updater.common.util.uuid
-import com.android.system.updater.design.PropertiesDesign
-import com.android.system.updater.design.ui.ToastDuration
-import com.android.system.updater.design.util.showExceptionToast
-import com.android.system.updater.service.model.Profile
-import com.android.system.updater.util.withProfile
+import com.github.android.system.updater.common.util.intent
+import com.github.android.system.updater.common.util.setUUID
+import com.github.android.system.updater.common.util.uuid
+import com.github.android.system.updater.design.PropertiesDesign
+import com.github.android.system.updater.design.ui.ToastDuration
+import com.github.android.system.updater.design.util.showExceptionToast
+import com.github.android.system.updater.service.model.Profile
+import com.github.android.system.updater.util.withProfile
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.selects.select
-import com.android.system.updater.design.R
+import com.github.android.system.updater.design.R
 
 class PropertiesActivity : BaseActivity<PropertiesDesign>() {
     private var canceled: Boolean = false

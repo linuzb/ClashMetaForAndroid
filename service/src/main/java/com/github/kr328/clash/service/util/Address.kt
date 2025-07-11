@@ -1,4 +1,4 @@
-package com.android.system.updater.service.util
+package com.github.android.system.updater.service.util
 
 import java.net.Inet4Address
 import java.net.Inet6Address

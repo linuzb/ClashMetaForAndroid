@@ -1,9 +1,9 @@
-package com.android.system.updater.service.data
+package com.github.android.system.updater.service.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.TypeConverters
-import com.android.system.updater.service.model.Profile
+import com.github.android.system.updater.service.model.Profile
 import java.util.*
 
 @Entity(tableName = "imported", primaryKeys = ["uuid"])

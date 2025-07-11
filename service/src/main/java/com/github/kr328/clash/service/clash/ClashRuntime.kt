@@ -1,8 +1,8 @@
-package com.android.system.updater.service.clash
+package com.github.android.system.updater.service.clash
 
-import com.android.system.updater.common.log.Log
-import com.android.system.updater.core.Clash
-import com.android.system.updater.service.clash.module.Module
+import com.github.android.system.updater.common.log.Log
+import com.github.android.system.updater.core.Clash
+import com.github.android.system.updater.service.clash.module.Module
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock

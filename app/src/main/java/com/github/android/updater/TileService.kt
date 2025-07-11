@@ -1,4 +1,4 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -9,13 +9,13 @@ import android.os.Build
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import androidx.annotation.RequiresApi
-import com.android.system.updater.common.compat.registerReceiverCompat
-import com.android.system.updater.common.constants.Intents
-import com.android.system.updater.common.constants.Permissions
-import com.android.system.updater.remote.StatusClient
-import com.android.system.updater.util.startClashService
-import com.android.system.updater.util.stopClashService
-import com.android.system.updater.service.R
+import com.github.android.system.updater.common.compat.registerReceiverCompat
+import com.github.android.system.updater.common.constants.Intents
+import com.github.android.system.updater.common.constants.Permissions
+import com.github.android.system.updater.remote.StatusClient
+import com.github.android.system.updater.util.startClashService
+import com.github.android.system.updater.util.stopClashService
+import com.github.android.system.updater.service.R
 
 @RequiresApi(Build.VERSION_CODES.N)
 class TileService : TileService() {

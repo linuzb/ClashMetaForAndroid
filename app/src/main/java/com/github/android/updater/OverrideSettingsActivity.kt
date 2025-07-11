@@ -1,14 +1,14 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
 import android.content.pm.PackageManager
-import com.android.system.updater.common.compat.getDrawableCompat
-import com.android.system.updater.common.constants.Metadata
-import com.android.system.updater.core.Clash
-import com.android.system.updater.design.OverrideSettingsDesign
-import com.android.system.updater.design.model.AppInfo
-import com.android.system.updater.design.util.toAppInfo
-import com.android.system.updater.service.store.ServiceStore
-import com.android.system.updater.util.withClash
+import com.github.android.system.updater.common.compat.getDrawableCompat
+import com.github.android.system.updater.common.constants.Metadata
+import com.github.android.system.updater.core.Clash
+import com.github.android.system.updater.design.OverrideSettingsDesign
+import com.github.android.system.updater.design.model.AppInfo
+import com.github.android.system.updater.design.util.toAppInfo
+import com.github.android.system.updater.service.store.ServiceStore
+import com.github.android.system.updater.util.withClash
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select

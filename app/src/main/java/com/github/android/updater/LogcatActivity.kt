@@ -1,4 +1,4 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
 import android.content.ComponentName
 import android.content.Context
@@ -7,20 +7,20 @@ import android.net.Uri
 import android.os.IBinder
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import com.android.system.updater.common.compat.startForegroundServiceCompat
-import com.android.system.updater.common.log.Log
-import com.android.system.updater.common.util.fileName
-import com.android.system.updater.common.util.intent
-import com.android.system.updater.common.util.ticker
-import com.android.system.updater.core.model.LogMessage
-import com.android.system.updater.design.LogcatDesign
-import com.android.system.updater.design.dialog.withModelProgressBar
-import com.android.system.updater.design.model.LogFile
-import com.android.system.updater.design.ui.ToastDuration
-import com.android.system.updater.design.util.showExceptionToast
-import com.android.system.updater.log.LogcatFilter
-import com.android.system.updater.log.LogcatReader
-import com.android.system.updater.util.logsDir
+import com.github.android.system.updater.common.compat.startForegroundServiceCompat
+import com.github.android.system.updater.common.log.Log
+import com.github.android.system.updater.common.util.fileName
+import com.github.android.system.updater.common.util.intent
+import com.github.android.system.updater.common.util.ticker
+import com.github.android.system.updater.core.model.LogMessage
+import com.github.android.system.updater.design.LogcatDesign
+import com.github.android.system.updater.design.dialog.withModelProgressBar
+import com.github.android.system.updater.design.model.LogFile
+import com.github.android.system.updater.design.ui.ToastDuration
+import com.github.android.system.updater.design.util.showExceptionToast
+import com.github.android.system.updater.log.LogcatFilter
+import com.github.android.system.updater.log.LogcatReader
+import com.github.android.system.updater.util.logsDir
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
@@ -28,7 +28,7 @@ import kotlinx.coroutines.withContext
 import java.io.OutputStreamWriter
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
-import com.android.system.updater.design.R
+import com.github.android.system.updater.design.R
 
 class LogcatActivity : BaseActivity<LogcatDesign>() {
     private var conn: ServiceConnection? = null

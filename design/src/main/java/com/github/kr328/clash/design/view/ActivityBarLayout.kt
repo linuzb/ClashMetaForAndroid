@@ -1,4 +1,4 @@
-package com.android.system.updater.design.view
+package com.github.android.system.updater.design.view
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,7 +6,7 @@ import android.view.MotionEvent
 import android.widget.FrameLayout
 import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
-import com.android.system.updater.design.util.resolveThemedColor
+import com.github.android.system.updater.design.util.resolveThemedColor
 
 class ActivityBarLayout @JvmOverloads constructor(
     context: Context,

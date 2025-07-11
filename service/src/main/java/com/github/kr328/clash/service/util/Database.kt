@@ -1,7 +1,7 @@
-package com.android.system.updater.service.util
+package com.github.android.system.updater.service.util
 
-import com.android.system.updater.service.data.ImportedDao
-import com.android.system.updater.service.data.PendingDao
+import com.github.android.system.updater.service.data.ImportedDao
+import com.github.android.system.updater.service.data.PendingDao
 import java.util.*
 
 suspend fun generateProfileUUID(): UUID {

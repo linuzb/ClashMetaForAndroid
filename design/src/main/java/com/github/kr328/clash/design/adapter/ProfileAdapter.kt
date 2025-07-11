@@ -1,14 +1,14 @@
-package com.android.system.updater.design.adapter
+package com.github.android.system.updater.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.updater.design.databinding.AdapterProfileBinding
-import com.android.system.updater.design.model.ProfilePageState
-import com.android.system.updater.design.model.ProxyPageState
-import com.android.system.updater.design.ui.ObservableCurrentTime
-import com.android.system.updater.design.util.layoutInflater
-import com.android.system.updater.service.model.Profile
+import com.github.android.system.updater.design.databinding.AdapterProfileBinding
+import com.github.android.system.updater.design.model.ProfilePageState
+import com.github.android.system.updater.design.model.ProxyPageState
+import com.github.android.system.updater.design.ui.ObservableCurrentTime
+import com.github.android.system.updater.design.util.layoutInflater
+import com.github.android.system.updater.service.model.Profile
 
 class ProfileAdapter(
     private val context: Context,

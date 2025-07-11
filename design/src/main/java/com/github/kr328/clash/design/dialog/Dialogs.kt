@@ -1,4 +1,4 @@
-package com.android.system.updater.design.dialog
+package com.github.android.system.updater.design.dialog
 
 import android.app.Dialog
 import android.content.Context
@@ -8,14 +8,14 @@ import android.view.WindowManager
 import android.widget.FrameLayout
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.ViewCompat
-import com.android.system.updater.common.compat.isAllowForceDarkCompat
-import com.android.system.updater.common.compat.isSystemBarsTranslucentCompat
-import com.android.system.updater.design.R
-import com.android.system.updater.design.ui.Insets
-import com.android.system.updater.design.ui.Surface
-import com.android.system.updater.design.util.getPixels
-import com.android.system.updater.design.util.resolveThemedResourceId
-import com.android.system.updater.design.util.setOnInsertsChangedListener
+import com.github.android.system.updater.common.compat.isAllowForceDarkCompat
+import com.github.android.system.updater.common.compat.isSystemBarsTranslucentCompat
+import com.github.android.system.updater.design.R
+import com.github.android.system.updater.design.ui.Insets
+import com.github.android.system.updater.design.ui.Surface
+import com.github.android.system.updater.design.util.getPixels
+import com.github.android.system.updater.design.util.resolveThemedResourceId
+import com.github.android.system.updater.design.util.setOnInsertsChangedListener
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 

@@ -1,9 +1,9 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
-import com.android.system.updater.common.compat.versionCodeCompat
-import com.android.system.updater.common.log.Log
-import com.android.system.updater.design.AppCrashedDesign
-import com.android.system.updater.log.SystemLogcat
+import com.github.android.system.updater.common.compat.versionCodeCompat
+import com.github.android.system.updater.common.log.Log
+import com.github.android.system.updater.design.AppCrashedDesign
+import com.github.android.system.updater.log.SystemLogcat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.withContext

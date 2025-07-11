@@ -1,10 +1,10 @@
-package com.android.system.updater.util
+package com.github.android.system.updater.util
 
 import android.os.DeadObjectException
-import com.android.system.updater.common.log.Log
-import com.android.system.updater.remote.Remote
-import com.android.system.updater.service.remote.IClashManager
-import com.android.system.updater.service.remote.IProfileManager
+import com.github.android.system.updater.common.log.Log
+import com.github.android.system.updater.remote.Remote
+import com.github.android.system.updater.service.remote.IClashManager
+import com.github.android.system.updater.service.remote.IProfileManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlin.coroutines.CoroutineContext

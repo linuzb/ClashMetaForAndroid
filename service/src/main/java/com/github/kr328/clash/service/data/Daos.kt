@@ -1,4 +1,4 @@
-package com.android.system.updater.service.data
+package com.github.android.system.updater.service.data
 
 fun ImportedDao(): ImportedDao {
     return Database.database.openImportedDao()

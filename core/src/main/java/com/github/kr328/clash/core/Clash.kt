@@ -1,8 +1,8 @@
-package com.android.system.updater.core
+package com.github.android.system.updater.core
 
-import com.android.system.updater.core.bridge.*
-import com.android.system.updater.core.model.*
-import com.android.system.updater.core.util.parseInetSocketAddress
+import com.github.android.system.updater.core.bridge.*
+import com.github.android.system.updater.core.model.*
+import com.github.android.system.updater.core.util.parseInetSocketAddress
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel

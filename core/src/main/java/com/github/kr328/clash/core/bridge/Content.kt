@@ -1,8 +1,8 @@
-package com.android.system.updater.core.bridge
+package com.github.android.system.updater.core.bridge
 
 import android.net.Uri
 import androidx.annotation.Keep
-import com.android.system.updater.common.Global
+import com.github.android.system.updater.common.Global
 import java.io.FileNotFoundException
 
 @Keep

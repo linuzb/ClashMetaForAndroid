@@ -1,12 +1,12 @@
-package com.android.system.updater.design.adapter
+package com.github.android.system.updater.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import android.view.ViewGroup.LayoutParams
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.updater.design.model.LogFile
-import com.android.system.updater.design.util.format
-import com.android.system.updater.design.view.ActionLabel
+import com.github.android.system.updater.design.model.LogFile
+import com.github.android.system.updater.design.util.format
+import com.github.android.system.updater.design.view.ActionLabel
 
 class LogFileAdapter(
     private val context: Context,

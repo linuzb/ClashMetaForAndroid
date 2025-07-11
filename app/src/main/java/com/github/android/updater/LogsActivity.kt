@@ -1,10 +1,10 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
-import com.android.system.updater.common.util.intent
-import com.android.system.updater.common.util.setFileName
-import com.android.system.updater.design.LogsDesign
-import com.android.system.updater.design.model.LogFile
-import com.android.system.updater.util.logsDir
+import com.github.android.system.updater.common.util.intent
+import com.github.android.system.updater.common.util.setFileName
+import com.github.android.system.updater.design.LogsDesign
+import com.github.android.system.updater.design.model.LogFile
+import com.github.android.system.updater.util.logsDir
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select

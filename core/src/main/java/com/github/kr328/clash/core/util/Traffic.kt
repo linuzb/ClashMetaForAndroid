@@ -1,6 +1,6 @@
-package com.android.system.updater.core.util
+package com.github.android.system.updater.core.util
 
-import com.android.system.updater.core.model.Traffic
+import com.github.android.system.updater.core.model.Traffic
 
 fun Traffic.trafficUpload(): String {
     return trafficString(scaleTraffic(this ushr 32))

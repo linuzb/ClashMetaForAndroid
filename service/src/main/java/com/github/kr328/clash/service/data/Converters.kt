@@ -1,7 +1,7 @@
-package com.android.system.updater.service.data
+package com.github.android.system.updater.service.data
 
 import androidx.room.TypeConverter
-import com.android.system.updater.service.model.Profile
+import com.github.android.system.updater.service.model.Profile
 import java.util.*
 
 class Converters {

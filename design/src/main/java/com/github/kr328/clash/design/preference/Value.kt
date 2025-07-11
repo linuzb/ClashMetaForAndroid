@@ -1,4 +1,4 @@
-package com.android.system.updater.design.preference
+package com.github.android.system.updater.design.preference
 
 interface NullableTextAdapter<T> {
     fun from(value: T): String?

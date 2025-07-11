@@ -1,4 +1,4 @@
-package com.android.system.updater.common.store
+package com.github.android.system.updater.common.store
 
 import android.content.SharedPreferences
 import androidx.core.content.edit

@@ -1,10 +1,10 @@
-package com.android.system.updater.common.constants
+package com.github.android.system.updater.common.constants
 
 import android.content.ComponentName
-import com.android.system.updater.common.util.packageName
+import com.github.android.system.updater.common.util.packageName
 
 object Components {
-    private const val componentsPackageName = "com.android.system.updater"
+    private const val componentsPackageName = "com.github.android.system.updater"
 
     val MAIN_ACTIVITY = ComponentName(packageName, "$componentsPackageName.MainActivity")
     val PROPERTIES_ACTIVITY = ComponentName(packageName, "$componentsPackageName.PropertiesActivity")

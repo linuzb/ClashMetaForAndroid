@@ -1,8 +1,8 @@
-package com.android.system.updater.log
+package com.github.android.system.updater.log
 
 import android.content.Context
-import com.android.system.updater.core.model.LogMessage
-import com.android.system.updater.design.util.format
+import com.github.android.system.updater.core.model.LogMessage
+import com.github.android.system.updater.design.util.format
 import java.io.BufferedWriter
 import java.io.Writer
 import java.util.*

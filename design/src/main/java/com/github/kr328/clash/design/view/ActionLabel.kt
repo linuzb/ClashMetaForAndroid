@@ -1,4 +1,4 @@
-package com.android.system.updater.design.view
+package com.github.android.system.updater.design.view
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -7,9 +7,9 @@ import android.view.View
 import android.widget.FrameLayout
 import androidx.annotation.AttrRes
 import androidx.annotation.StyleRes
-import com.android.system.updater.design.R
-import com.android.system.updater.design.databinding.ComponentActionLabelBinding
-import com.android.system.updater.design.util.layoutInflater
+import com.github.android.system.updater.design.R
+import com.github.android.system.updater.design.databinding.ComponentActionLabelBinding
+import com.github.android.system.updater.design.util.layoutInflater
 
 class ActionLabel @JvmOverloads constructor(
     context: Context,

@@ -1,4 +1,4 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
 import android.Manifest.permission.INTERNET
 import android.content.ClipData
@@ -7,12 +7,12 @@ import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import androidx.core.content.getSystemService
-import com.android.system.updater.design.AccessControlDesign
-import com.android.system.updater.design.model.AppInfo
-import com.android.system.updater.design.util.toAppInfo
-import com.android.system.updater.service.store.ServiceStore
-import com.android.system.updater.util.startClashService
-import com.android.system.updater.util.stopClashService
+import com.github.android.system.updater.design.AccessControlDesign
+import com.github.android.system.updater.design.model.AppInfo
+import com.github.android.system.updater.design.util.toAppInfo
+import com.github.android.system.updater.service.store.ServiceStore
+import com.github.android.system.updater.util.startClashService
+import com.github.android.system.updater.util.stopClashService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive

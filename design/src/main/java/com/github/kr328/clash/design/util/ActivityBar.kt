@@ -1,11 +1,11 @@
-package com.android.system.updater.design.util
+package com.github.android.system.updater.design.util
 
 import android.app.Activity
 import android.content.Context
 import android.widget.ImageView
 import android.widget.TextView
-import com.android.system.updater.design.R
-import com.android.system.updater.design.view.ActivityBarLayout
+import com.github.android.system.updater.design.R
+import com.github.android.system.updater.design.view.ActivityBarLayout
 
 fun ActivityBarLayout.applyFrom(context: Context) {
     if (context is Activity) {

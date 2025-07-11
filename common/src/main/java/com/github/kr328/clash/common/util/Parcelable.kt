@@ -1,4 +1,4 @@
-package com.android.system.updater.common.util
+package com.github.android.system.updater.common.util
 
 import android.os.Binder
 import android.os.Parcel

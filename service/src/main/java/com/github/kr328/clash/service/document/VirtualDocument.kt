@@ -1,4 +1,4 @@
-package com.android.system.updater.service.document
+package com.github.android.system.updater.service.document
 
 class VirtualDocument(
     override val id: String,

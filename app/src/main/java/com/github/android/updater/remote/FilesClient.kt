@@ -1,12 +1,12 @@
 @file:Suppress("BlockingMethodInNonBlockingContext")
 
-package com.android.system.updater.remote
+package com.github.android.system.updater.remote
 
 import android.content.Context
 import android.net.Uri
-import com.android.system.updater.common.constants.Authorities
-import com.android.system.updater.design.model.File
-import com.android.system.updater.util.copyContentTo
+import com.github.android.system.updater.common.constants.Authorities
+import com.github.android.system.updater.design.model.File
+import com.github.android.system.updater.util.copyContentTo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import android.provider.DocumentsContract as DC

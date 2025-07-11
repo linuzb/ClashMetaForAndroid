@@ -1,4 +1,4 @@
-package com.android.system.updater.common.store
+package com.github.android.system.updater.common.store
 
 interface StoreProvider {
     fun getInt(key: String, defaultValue: Int): Int

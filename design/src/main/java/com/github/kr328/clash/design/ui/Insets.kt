@@ -1,4 +1,4 @@
-package com.android.system.updater.design.ui
+package com.github.android.system.updater.design.ui
 
 data class Insets(val start: Int, val top: Int, val end: Int, val bottom: Int) {
     companion object {

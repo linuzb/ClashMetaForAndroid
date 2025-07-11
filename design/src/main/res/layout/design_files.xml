@@ -4,7 +4,7 @@
     <data>
         <variable
             name="self"
-            type="com.android.system.updater.design.FilesDesign" />
+            type="com.github.android.system.updater.design.FilesDesign" />
         <variable
             name="currentInBaseDir"
             type="boolean" />
@@ -26,7 +26,7 @@
             layout="@layout/common_recycler_list"
             app:insets="@{self.surface.insets}" />
 
-        <com.android.system.updater.design.view.ActivityBarLayout
+        <com.github.android.system.updater.design.view.ActivityBarLayout
             android:id="@+id/activity_bar_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,6 +63,6 @@
                     android:visibility="@{currentInBaseDir ? View.GONE : View.VISIBLE}" />
 
             </RelativeLayout>
-        </com.android.system.updater.design.view.ActivityBarLayout>
+        </com.github.android.system.updater.design.view.ActivityBarLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

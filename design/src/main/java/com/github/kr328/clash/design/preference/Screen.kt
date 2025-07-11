@@ -1,4 +1,4 @@
-package com.android.system.updater.design.preference
+package com.github.android.system.updater.design.preference
 
 import android.content.Context
 import android.view.ViewGroup
