@@ -1,6 +1,6 @@
 @file:Suppress("BlockingMethodInNonBlockingContext")
 
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.Manifest
 import android.content.Intent
@@ -9,15 +9,15 @@ import android.net.Uri
 import android.os.Build
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
-import com.github.android.system.updater.common.util.grantPermissions
-import com.github.android.system.updater.common.util.ticker
-import com.github.android.system.updater.common.util.uuid
-import com.github.android.system.updater.design.FilesDesign
-import com.github.android.system.updater.design.util.showExceptionToast
-import com.github.android.system.updater.remote.FilesClient
-import com.github.android.system.updater.service.model.Profile
-import com.github.android.system.updater.util.fileName
-import com.github.android.system.updater.util.withProfile
+import com.github.android.updater.common.util.grantPermissions
+import com.github.android.updater.common.util.ticker
+import com.github.android.updater.common.util.uuid
+import com.github.android.updater.design.FilesDesign
+import com.github.android.updater.design.util.showExceptionToast
+import com.github.android.updater.remote.FilesClient
+import com.github.android.updater.service.model.Profile
+import com.github.android.updater.util.fileName
+import com.github.android.updater.util.withProfile
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 import java.util.*

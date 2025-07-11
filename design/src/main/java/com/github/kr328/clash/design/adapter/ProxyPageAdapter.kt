@@ -1,16 +1,16 @@
-package com.github.android.system.updater.design.adapter
+package com.github.android.updater.design.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.android.system.updater.core.model.Proxy
-import com.github.android.system.updater.design.R
-import com.github.android.system.updater.design.component.ProxyPageFactory
-import com.github.android.system.updater.design.component.ProxyViewConfig
-import com.github.android.system.updater.design.component.ProxyViewState
-import com.github.android.system.updater.design.model.ProxyPageState
-import com.github.android.system.updater.design.model.ProxyState
-import com.github.android.system.updater.design.ui.Surface
-import com.github.android.system.updater.design.util.*
+import com.github.android.updater.core.model.Proxy
+import com.github.android.updater.design.R
+import com.github.android.updater.design.component.ProxyPageFactory
+import com.github.android.updater.design.component.ProxyViewConfig
+import com.github.android.updater.design.component.ProxyViewState
+import com.github.android.updater.design.model.ProxyPageState
+import com.github.android.updater.design.model.ProxyState
+import com.github.android.updater.design.ui.Surface
+import com.github.android.updater.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

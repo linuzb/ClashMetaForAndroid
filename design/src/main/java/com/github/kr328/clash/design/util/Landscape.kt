@@ -1,8 +1,8 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
 import android.content.Context
-import com.github.android.system.updater.design.R
-import com.github.android.system.updater.design.ui.Insets
+import com.github.android.updater.design.R
+import com.github.android.updater.design.ui.Insets
 
 fun Insets.landscape(context: Context): Insets {
     val displayMetrics = context.resources.displayMetrics

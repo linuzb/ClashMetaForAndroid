@@ -1,8 +1,8 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.content.Intent
 import android.net.Uri
-import com.github.android.system.updater.design.ApkBrokenDesign
+import com.github.android.updater.design.ApkBrokenDesign
 import kotlinx.coroutines.isActive
 
 class ApkBrokenActivity : BaseActivity<ApkBrokenDesign>() {

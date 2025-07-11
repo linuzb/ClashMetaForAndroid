@@ -1,13 +1,13 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.app.Application
 import android.content.Context
-import com.github.android.system.updater.common.Global
-import com.github.android.system.updater.common.compat.currentProcessName
-import com.github.android.system.updater.common.log.Log
-import com.github.android.system.updater.remote.Remote
-import com.github.android.system.updater.service.util.sendServiceRecreated
-import com.github.android.system.updater.util.clashDir
+import com.github.android.updater.common.Global
+import com.github.android.updater.common.compat.currentProcessName
+import com.github.android.updater.common.log.Log
+import com.github.android.updater.remote.Remote
+import com.github.android.updater.service.util.sendServiceRecreated
+import com.github.android.updater.util.clashDir
 import java.io.File
 import java.io.FileOutputStream
 

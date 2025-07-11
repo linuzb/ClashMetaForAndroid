@@ -1,9 +1,9 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
-import com.github.android.system.updater.common.compat.foreground
-import com.github.android.system.updater.design.model.AppInfo
+import com.github.android.updater.common.compat.foreground
+import com.github.android.updater.design.model.AppInfo
 
 fun PackageInfo.toAppInfo(pm: PackageManager): AppInfo {
     return AppInfo(

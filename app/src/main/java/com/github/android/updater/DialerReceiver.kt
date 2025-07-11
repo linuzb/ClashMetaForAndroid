@@ -1,4 +1,4 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.content.BroadcastReceiver
 import android.content.Context

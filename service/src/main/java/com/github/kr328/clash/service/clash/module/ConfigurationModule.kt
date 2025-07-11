@@ -1,15 +1,15 @@
-package com.github.android.system.updater.service.clash.module
+package com.github.android.updater.service.clash.module
 
 import android.app.Service
-import com.github.android.system.updater.common.constants.Intents
-import com.github.android.system.updater.common.log.Log
-import com.github.android.system.updater.core.Clash
-import com.github.android.system.updater.service.StatusProvider
-import com.github.android.system.updater.service.data.ImportedDao
-import com.github.android.system.updater.service.data.SelectionDao
-import com.github.android.system.updater.service.store.ServiceStore
-import com.github.android.system.updater.service.util.importedDir
-import com.github.android.system.updater.service.util.sendProfileLoaded
+import com.github.android.updater.common.constants.Intents
+import com.github.android.updater.common.log.Log
+import com.github.android.updater.core.Clash
+import com.github.android.updater.service.StatusProvider
+import com.github.android.updater.service.data.ImportedDao
+import com.github.android.updater.service.data.SelectionDao
+import com.github.android.updater.service.store.ServiceStore
+import com.github.android.updater.service.util.importedDir
+import com.github.android.updater.service.util.sendProfileLoaded
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.selects.select
 import java.util.*

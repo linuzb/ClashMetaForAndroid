@@ -1,4 +1,4 @@
-package com.github.android.system.updater.core.util
+package com.github.android.updater.core.util
 
 import java.net.InetAddress
 import java.net.InetSocketAddress

@@ -1,14 +1,14 @@
-package com.github.android.system.updater.service.document
+package com.github.android.updater.service.document
 
 import android.content.Context
 import android.provider.DocumentsContract
-import com.github.android.system.updater.service.R
-import com.github.android.system.updater.service.data.ImportedDao
-import com.github.android.system.updater.service.data.Pending
-import com.github.android.system.updater.service.data.PendingDao
-import com.github.android.system.updater.service.model.Profile
-import com.github.android.system.updater.service.util.importedDir
-import com.github.android.system.updater.service.util.pendingDir
+import com.github.android.updater.service.R
+import com.github.android.updater.service.data.ImportedDao
+import com.github.android.updater.service.data.Pending
+import com.github.android.updater.service.data.PendingDao
+import com.github.android.updater.service.model.Profile
+import com.github.android.updater.service.util.importedDir
+import com.github.android.updater.service.util.pendingDir
 import java.io.FileNotFoundException
 import java.util.*
 

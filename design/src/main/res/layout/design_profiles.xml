@@ -4,7 +4,7 @@
     <data>
         <variable
             name="self"
-            type="com.github.android.system.updater.design.ProfilesDesign" />
+            type="com.github.android.updater.design.ProfilesDesign" />
 
         <import type="android.view.View" />
     </data>
@@ -20,7 +20,7 @@
             layout="@layout/common_recycler_list"
             app:insets="@{self.surface.insets}" />
 
-        <com.github.android.system.updater.design.view.ActivityBarLayout
+        <com.github.android.updater.design.view.ActivityBarLayout
             android:id="@+id/activity_bar_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,6 +79,6 @@
                     android:src="@drawable/ic_baseline_add" />
 
             </RelativeLayout>
-        </com.github.android.system.updater.design.view.ActivityBarLayout>
+        </com.github.android.updater.design.view.ActivityBarLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

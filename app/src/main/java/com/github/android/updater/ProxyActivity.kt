@@ -1,11 +1,11 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
-import com.github.android.system.updater.common.util.intent
-import com.github.android.system.updater.core.Clash
-import com.github.android.system.updater.core.model.Proxy
-import com.github.android.system.updater.design.ProxyDesign
-import com.github.android.system.updater.design.model.ProxyState
-import com.github.android.system.updater.util.withClash
+import com.github.android.updater.common.util.intent
+import com.github.android.updater.core.Clash
+import com.github.android.updater.core.model.Proxy
+import com.github.android.updater.design.ProxyDesign
+import com.github.android.updater.design.model.ProxyState
+import com.github.android.updater.util.withClash
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.selects.select

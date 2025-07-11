@@ -1,7 +1,7 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.content.Intent
-import com.github.android.system.updater.design.HelpDesign
+import com.github.android.updater.design.HelpDesign
 import kotlinx.coroutines.isActive
 
 class HelpActivity : BaseActivity<HelpDesign>() {

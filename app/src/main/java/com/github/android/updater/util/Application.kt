@@ -1,4 +1,4 @@
-package com.github.android.system.updater.util
+package com.github.android.updater.util
 
 import android.app.Activity
 import android.app.Application

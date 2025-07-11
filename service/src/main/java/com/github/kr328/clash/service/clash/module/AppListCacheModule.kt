@@ -1,10 +1,10 @@
-package com.github.android.system.updater.service.clash.module
+package com.github.android.updater.service.clash.module
 
 import android.app.Service
 import android.content.Intent
 import android.content.pm.PackageInfo
-import com.github.android.system.updater.common.log.Log
-import com.github.android.system.updater.core.Clash
+import com.github.android.updater.common.log.Log
+import com.github.android.updater.core.Clash
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
 import java.util.concurrent.TimeUnit

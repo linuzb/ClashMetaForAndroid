@@ -1,4 +1,4 @@
-package com.github.android.system.updater.design.preference
+package com.github.android.updater.design.preference
 
 import android.view.View
 

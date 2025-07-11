@@ -1,8 +1,8 @@
-package com.github.android.system.updater.store
+package com.github.android.updater.store
 
 import android.content.Context
-import com.github.android.system.updater.common.store.Store
-import com.github.android.system.updater.common.store.asStoreProvider
+import com.github.android.updater.common.store.Store
+import com.github.android.updater.common.store.asStoreProvider
 
 class TipsStore(context: Context) {
     private val store = Store(

@@ -1,6 +1,6 @@
-package com.github.android.system.updater.service.remote
+package com.github.android.updater.service.remote
 
-import com.github.android.system.updater.core.model.LogMessage
+import com.github.android.updater.core.model.LogMessage
 import com.github.kr328.kaidl.BinderInterface
 
 @BinderInterface

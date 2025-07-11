@@ -1,4 +1,4 @@
-package com.github.android.system.updater.core.model
+package com.github.android.updater.core.model
 
 enum class ProxySort {
     Default, Title, Delay

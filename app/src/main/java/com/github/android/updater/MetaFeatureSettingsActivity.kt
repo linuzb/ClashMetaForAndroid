@@ -1,14 +1,14 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.database.Cursor
 import android.net.Uri
 import android.provider.OpenableColumns
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import com.github.android.system.updater.core.Clash
-import com.github.android.system.updater.design.MetaFeatureSettingsDesign
-import com.github.android.system.updater.util.clashDir
-import com.github.android.system.updater.util.withClash
+import com.github.android.updater.core.Clash
+import com.github.android.updater.design.MetaFeatureSettingsDesign
+import com.github.android.updater.util.clashDir
+import com.github.android.updater.util.withClash
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
@@ -16,7 +16,7 @@ import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.withContext
 import java.io.File
 import java.io.FileOutputStream
-import com.github.android.system.updater.design.R
+import com.github.android.updater.design.R
 
 
 class MetaFeatureSettingsActivity : BaseActivity<MetaFeatureSettingsDesign>() {

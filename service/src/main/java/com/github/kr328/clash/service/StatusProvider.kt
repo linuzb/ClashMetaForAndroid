@@ -1,11 +1,11 @@
-package com.github.android.system.updater.service
+package com.github.android.updater.service
 
 import android.content.ContentProvider
 import android.content.ContentValues
 import android.database.Cursor
 import android.net.Uri
 import android.os.Bundle
-import com.github.android.system.updater.common.Global
+import com.github.android.updater.common.Global
 
 class StatusProvider : ContentProvider() {
     override fun call(method: String, arg: String?, extras: Bundle?): Bundle? {

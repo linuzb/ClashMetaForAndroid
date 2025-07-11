@@ -1,14 +1,14 @@
-package com.github.android.system.updater.design.adapter
+package com.github.android.updater.design.adapter
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.android.system.updater.core.model.Provider
-import com.github.android.system.updater.design.databinding.AdapterProviderBinding
-import com.github.android.system.updater.design.model.ProviderState
-import com.github.android.system.updater.design.ui.ObservableCurrentTime
-import com.github.android.system.updater.design.util.layoutInflater
+import com.github.android.updater.core.model.Provider
+import com.github.android.updater.design.databinding.AdapterProviderBinding
+import com.github.android.updater.design.model.ProviderState
+import com.github.android.updater.design.ui.ObservableCurrentTime
+import com.github.android.updater.design.util.layoutInflater
 
 class ProviderAdapter(
     private val context: Context,

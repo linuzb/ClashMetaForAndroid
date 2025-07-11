@@ -1,4 +1,4 @@
-package com.github.android.system.updater.common.compat
+package com.github.android.updater.common.compat
 
 import android.app.Notification
 import android.app.Service

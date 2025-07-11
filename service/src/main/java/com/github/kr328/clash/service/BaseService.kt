@@ -1,7 +1,7 @@
-package com.github.android.system.updater.service
+package com.github.android.updater.service
 
 import android.app.Service
-import com.github.android.system.updater.service.util.cancelAndJoinBlocking
+import com.github.android.updater.service.util.cancelAndJoinBlocking
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 

@@ -1,16 +1,16 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import com.github.android.system.updater.common.util.intent
-import com.github.android.system.updater.common.util.setUUID
-import com.github.android.system.updater.common.util.ticker
-import com.github.android.system.updater.design.ProfilesDesign
-import com.github.android.system.updater.design.ui.ToastDuration
-import com.github.android.system.updater.service.model.Profile
-import com.github.android.system.updater.util.withProfile
+import com.github.android.updater.common.util.intent
+import com.github.android.updater.common.util.setUUID
+import com.github.android.updater.common.util.ticker
+import com.github.android.updater.design.ProfilesDesign
+import com.github.android.updater.design.ui.ToastDuration
+import com.github.android.updater.service.model.Profile
+import com.github.android.updater.util.withProfile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
@@ -18,7 +18,7 @@ import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.withContext
 import java.util.*
 import java.util.concurrent.TimeUnit
-import com.github.android.system.updater.design.R
+import com.github.android.updater.design.R
 
 class ProfilesActivity : BaseActivity<ProfilesDesign>() {
     override suspend fun main() {

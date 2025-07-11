@@ -4,13 +4,13 @@
     <data>
         <variable
             name="master"
-            type="com.github.android.system.updater.design.FilesDesign" />
+            type="com.github.android.updater.design.FilesDesign" />
         <variable
             name="self"
             type="android.app.Dialog" />
         <variable
             name="file"
-            type="com.github.android.system.updater.design.model.File" />
+            type="com.github.android.updater.design.model.File" />
         <variable
             name="currentInBase"
             type="boolean" />
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <com.github.android.system.updater.design.view.LargeActionLabel
+        <com.github.android.updater.design.view.LargeActionLabel
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:onClick="@{() -> master.requestImport(self, file)}"
@@ -34,7 +34,7 @@
             app:icon="@drawable/ic_baseline_get_app"
             app:text="@string/import_" />
 
-        <com.github.android.system.updater.design.view.LargeActionLabel
+        <com.github.android.updater.design.view.LargeActionLabel
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:onClick="@{() -> master.requestExport(self, file)}"
@@ -43,7 +43,7 @@
             app:icon="@drawable/ic_baseline_publish"
             app:text="@string/export" />
 
-        <com.github.android.system.updater.design.view.LargeActionLabel
+        <com.github.android.updater.design.view.LargeActionLabel
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:onClick="@{() -> master.requestRename(self, file)}"
@@ -52,7 +52,7 @@
             app:icon="@drawable/ic_baseline_edit"
             app:text="@string/rename" />
 
-        <com.github.android.system.updater.design.view.LargeActionLabel
+        <com.github.android.updater.design.view.LargeActionLabel
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:onClick="@{() -> master.requestDelete(self, file)}"

@@ -1,9 +1,9 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
 import android.view.View
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.github.android.system.updater.design.ui.Insets
+import com.github.android.updater.design.ui.Insets
 
 fun View.setOnInsertsChangedListener(adaptLandscape: Boolean = true, listener: (Insets) -> Unit) {
     setOnApplyWindowInsetsListener { v, ins ->

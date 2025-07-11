@@ -1,4 +1,4 @@
-package com.github.android.system.updater.service.util
+package com.github.android.updater.service.util
 
 data class IPNet(val ip: String, val prefix: Int)
 

@@ -1,16 +1,16 @@
-package com.github.android.system.updater.design
+package com.github.android.updater.design
 
 import android.content.Context
 import android.view.View
 import androidx.core.widget.addTextChangedListener
-import com.github.android.system.updater.design.adapter.AppAdapter
-import com.github.android.system.updater.design.component.AccessControlMenu
-import com.github.android.system.updater.design.databinding.DesignAccessControlBinding
-import com.github.android.system.updater.design.databinding.DialogSearchBinding
-import com.github.android.system.updater.design.dialog.FullScreenDialog
-import com.github.android.system.updater.design.model.AppInfo
-import com.github.android.system.updater.design.store.UiStore
-import com.github.android.system.updater.design.util.*
+import com.github.android.updater.design.adapter.AppAdapter
+import com.github.android.updater.design.component.AccessControlMenu
+import com.github.android.updater.design.databinding.DesignAccessControlBinding
+import com.github.android.updater.design.databinding.DialogSearchBinding
+import com.github.android.updater.design.dialog.FullScreenDialog
+import com.github.android.updater.design.model.AppInfo
+import com.github.android.updater.design.store.UiStore
+import com.github.android.updater.design.util.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 

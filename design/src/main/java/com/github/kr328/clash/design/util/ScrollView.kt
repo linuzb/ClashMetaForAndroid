@@ -1,6 +1,6 @@
-package com.github.android.system.updater.design.util
+package com.github.android.updater.design.util
 
-import com.github.android.system.updater.design.view.ObservableScrollView
+import com.github.android.updater.design.view.ObservableScrollView
 
 val ObservableScrollView.isTop: Boolean
     get() = scrollX == 0 && scrollY == 0

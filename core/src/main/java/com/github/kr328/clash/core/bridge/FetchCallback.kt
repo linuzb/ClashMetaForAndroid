@@ -1,4 +1,4 @@
-package com.github.android.system.updater.core.bridge
+package com.github.android.updater.core.bridge
 
 import androidx.annotation.Keep
 

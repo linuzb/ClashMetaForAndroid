@@ -3,8 +3,8 @@
     <data>
         <variable
             name="message"
-            type="com.github.android.system.updater.core.model.LogMessage" />
-        <import type="com.github.android.system.updater.design.util.I18nKt" />
+            type="com.github.android.updater.core.model.LogMessage" />
+        <import type="com.github.android.updater.design.util.I18nKt" />
     </data>
 
     <LinearLayout

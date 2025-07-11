@@ -1,10 +1,10 @@
-package com.github.android.system.updater.design.model
+package com.github.android.updater.design.model
 
 import android.content.Context
 import android.content.Intent
 import android.graphics.drawable.Drawable
-import com.github.android.system.updater.common.compat.getDrawableCompat
-import com.github.android.system.updater.design.R
+import com.github.android.updater.common.compat.getDrawableCompat
+import com.github.android.updater.design.R
 
 sealed class ProfileProvider {
     class File(private val context: Context) : ProfileProvider() {

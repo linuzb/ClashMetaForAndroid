@@ -1,14 +1,14 @@
-package com.github.android.system.updater.design.component
+package com.github.android.updater.design.component
 
 import android.content.Context
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
-import com.github.android.system.updater.core.model.ProxySort
-import com.github.android.system.updater.core.model.TunnelState
-import com.github.android.system.updater.design.ProxyDesign
-import com.github.android.system.updater.design.R
-import com.github.android.system.updater.design.store.UiStore
+import com.github.android.updater.core.model.ProxySort
+import com.github.android.updater.core.model.TunnelState
+import com.github.android.updater.design.ProxyDesign
+import com.github.android.updater.design.R
+import com.github.android.updater.design.store.UiStore
 import kotlinx.coroutines.channels.Channel
 
 class ProxyMenu(

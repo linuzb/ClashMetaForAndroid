@@ -1,4 +1,4 @@
-package com.github.android.system.updater.design
+package com.github.android.updater.design
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -6,11 +6,11 @@ import android.content.Context
 import android.view.View
 import androidx.core.content.getSystemService
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.github.android.system.updater.core.model.LogMessage
-import com.github.android.system.updater.design.adapter.LogMessageAdapter
-import com.github.android.system.updater.design.databinding.DesignLogcatBinding
-import com.github.android.system.updater.design.ui.ToastDuration
-import com.github.android.system.updater.design.util.*
+import com.github.android.updater.core.model.LogMessage
+import com.github.android.updater.design.adapter.LogMessageAdapter
+import com.github.android.updater.design.databinding.DesignLogcatBinding
+import com.github.android.updater.design.ui.ToastDuration
+import com.github.android.updater.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

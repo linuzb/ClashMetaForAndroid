@@ -1,11 +1,11 @@
-package com.github.android.system.updater.design
+package com.github.android.updater.design
 
 import android.content.Context
 import android.view.View
-import com.github.android.system.updater.design.adapter.ProfileProviderAdapter
-import com.github.android.system.updater.design.databinding.DesignNewProfileBinding
-import com.github.android.system.updater.design.model.ProfileProvider
-import com.github.android.system.updater.design.util.*
+import com.github.android.updater.design.adapter.ProfileProviderAdapter
+import com.github.android.updater.design.databinding.DesignNewProfileBinding
+import com.github.android.updater.design.model.ProfileProvider
+import com.github.android.updater.design.util.*
 
 class NewProfileDesign(context: Context) : Design<NewProfileDesign.Request>(context) {
     sealed class Request {

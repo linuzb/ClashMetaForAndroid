@@ -1,4 +1,4 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.content.res.Configuration
 import android.os.Build
@@ -6,29 +6,29 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.appcompat.app.AppCompatActivity
-import com.github.android.system.updater.common.compat.isAllowForceDarkCompat
-import com.github.android.system.updater.common.compat.isLightNavigationBarCompat
-import com.github.android.system.updater.common.compat.isLightStatusBarsCompat
-import com.github.android.system.updater.common.compat.isSystemBarsTranslucentCompat
-import com.github.android.system.updater.core.bridge.ClashException
-import com.github.android.system.updater.design.Design
-import com.github.android.system.updater.design.model.DarkMode
-import com.github.android.system.updater.design.store.UiStore
-import com.github.android.system.updater.design.ui.DayNight
-import com.github.android.system.updater.design.util.resolveThemedBoolean
-import com.github.android.system.updater.design.util.resolveThemedColor
-import com.github.android.system.updater.design.util.showExceptionToast
-import com.github.android.system.updater.remote.Broadcasts
-import com.github.android.system.updater.remote.Remote
-import com.github.android.system.updater.util.ActivityResultLifecycle
-import com.github.android.system.updater.util.ApplicationObserver
+import com.github.android.updater.common.compat.isAllowForceDarkCompat
+import com.github.android.updater.common.compat.isLightNavigationBarCompat
+import com.github.android.updater.common.compat.isLightStatusBarsCompat
+import com.github.android.updater.common.compat.isSystemBarsTranslucentCompat
+import com.github.android.updater.core.bridge.ClashException
+import com.github.android.updater.design.Design
+import com.github.android.updater.design.model.DarkMode
+import com.github.android.updater.design.store.UiStore
+import com.github.android.updater.design.ui.DayNight
+import com.github.android.updater.design.util.resolveThemedBoolean
+import com.github.android.updater.design.util.resolveThemedColor
+import com.github.android.updater.design.util.showExceptionToast
+import com.github.android.updater.remote.Broadcasts
+import com.github.android.updater.remote.Remote
+import com.github.android.updater.util.ActivityResultLifecycle
+import com.github.android.updater.util.ApplicationObserver
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import java.util.*
 import java.util.concurrent.atomic.AtomicInteger
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
-import com.github.android.system.updater.design.R
+import com.github.android.updater.design.R
 
 abstract class BaseActivity<D : Design<*>> : AppCompatActivity(),
     CoroutineScope by MainScope(),

@@ -1,4 +1,4 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
 import android.app.Activity
 import android.content.ComponentName
@@ -6,19 +6,19 @@ import android.content.Intent
 import android.net.Uri
 import android.provider.Settings
 import androidx.activity.result.contract.ActivityResultContracts
-import com.github.android.system.updater.common.constants.Intents
-import com.github.android.system.updater.common.util.intent
-import com.github.android.system.updater.common.util.setUUID
-import com.github.android.system.updater.design.NewProfileDesign
-import com.github.android.system.updater.design.model.ProfileProvider
-import com.github.android.system.updater.service.model.Profile
-import com.github.android.system.updater.util.withProfile
+import com.github.android.updater.common.constants.Intents
+import com.github.android.updater.common.util.intent
+import com.github.android.updater.common.util.setUUID
+import com.github.android.updater.design.NewProfileDesign
+import com.github.android.updater.design.model.ProfileProvider
+import com.github.android.updater.service.model.Profile
+import com.github.android.updater.util.withProfile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.withContext
 import java.util.*
-import com.github.android.system.updater.design.R
+import com.github.android.updater.design.R
 
 class NewProfileActivity : BaseActivity<NewProfileDesign>() {
     private val self: NewProfileActivity

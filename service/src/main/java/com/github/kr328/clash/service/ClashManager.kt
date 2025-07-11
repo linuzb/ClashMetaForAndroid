@@ -1,15 +1,15 @@
-package com.github.android.system.updater.service
+package com.github.android.updater.service
 
 import android.content.Context
-import com.github.android.system.updater.common.log.Log
-import com.github.android.system.updater.core.Clash
-import com.github.android.system.updater.core.model.*
-import com.github.android.system.updater.service.data.Selection
-import com.github.android.system.updater.service.data.SelectionDao
-import com.github.android.system.updater.service.remote.IClashManager
-import com.github.android.system.updater.service.remote.ILogObserver
-import com.github.android.system.updater.service.store.ServiceStore
-import com.github.android.system.updater.service.util.sendOverrideChanged
+import com.github.android.updater.common.log.Log
+import com.github.android.updater.core.Clash
+import com.github.android.updater.core.model.*
+import com.github.android.updater.service.data.Selection
+import com.github.android.updater.service.data.SelectionDao
+import com.github.android.updater.service.remote.IClashManager
+import com.github.android.updater.service.remote.ILogObserver
+import com.github.android.updater.service.store.ServiceStore
+import com.github.android.updater.service.util.sendOverrideChanged
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.ReceiveChannel
 

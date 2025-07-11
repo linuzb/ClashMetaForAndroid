@@ -1,16 +1,16 @@
-package com.github.android.system.updater.design
+package com.github.android.updater.design
 
 import android.content.Context
 import android.view.View
-import com.github.android.system.updater.design.databinding.DesignSettingsCommonBinding
-import com.github.android.system.updater.design.preference.category
-import com.github.android.system.updater.design.preference.clickable
-import com.github.android.system.updater.design.preference.preferenceScreen
-import com.github.android.system.updater.design.preference.tips
-import com.github.android.system.updater.design.util.applyFrom
-import com.github.android.system.updater.design.util.bindAppBarElevation
-import com.github.android.system.updater.design.util.layoutInflater
-import com.github.android.system.updater.design.util.root
+import com.github.android.updater.design.databinding.DesignSettingsCommonBinding
+import com.github.android.updater.design.preference.category
+import com.github.android.updater.design.preference.clickable
+import com.github.android.updater.design.preference.preferenceScreen
+import com.github.android.updater.design.preference.tips
+import com.github.android.updater.design.util.applyFrom
+import com.github.android.updater.design.util.bindAppBarElevation
+import com.github.android.updater.design.util.layoutInflater
+import com.github.android.updater.design.util.root
 
 class ApkBrokenDesign(context: Context) : Design<ApkBrokenDesign.Request>(context) {
     data class Request(val url: String)

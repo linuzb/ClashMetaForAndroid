@@ -1,13 +1,13 @@
-package com.github.android.system.updater.remote
+package com.github.android.updater.remote
 
 import android.app.Application
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import com.github.android.system.updater.common.compat.registerReceiverCompat
-import com.github.android.system.updater.common.constants.Intents
-import com.github.android.system.updater.common.log.Log
+import com.github.android.updater.common.compat.registerReceiverCompat
+import com.github.android.updater.common.constants.Intents
+import com.github.android.updater.common.log.Log
 import java.util.*
 
 class Broadcasts(private val context: Application) {

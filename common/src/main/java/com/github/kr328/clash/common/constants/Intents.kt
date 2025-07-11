@@ -1,6 +1,6 @@
-package com.github.android.system.updater.common.constants
+package com.github.android.updater.common.constants
 
-import com.github.android.system.updater.common.util.packageName
+import com.github.android.updater.common.util.packageName
 
 object Intents {
     // Public

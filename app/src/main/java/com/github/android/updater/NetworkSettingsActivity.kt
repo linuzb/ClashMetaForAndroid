@@ -1,8 +1,8 @@
-package com.github.android.system.updater
+package com.github.android.updater
 
-import com.github.android.system.updater.common.util.intent
-import com.github.android.system.updater.design.NetworkSettingsDesign
-import com.github.android.system.updater.service.store.ServiceStore
+import com.github.android.updater.common.util.intent
+import com.github.android.updater.design.NetworkSettingsDesign
+import com.github.android.updater.service.store.ServiceStore
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 

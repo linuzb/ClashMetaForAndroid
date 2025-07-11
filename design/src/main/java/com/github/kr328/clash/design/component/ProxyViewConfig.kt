@@ -1,11 +1,11 @@
-package com.github.android.system.updater.design.component
+package com.github.android.updater.design.component
 
 import android.content.Context
 import android.graphics.Color
-import com.github.android.system.updater.design.R
-import com.github.android.system.updater.design.util.getPixels
-import com.github.android.system.updater.design.util.resolveThemedColor
-import com.github.android.system.updater.design.util.resolveThemedResourceId
+import com.github.android.updater.design.R
+import com.github.android.updater.design.util.getPixels
+import com.github.android.updater.design.util.resolveThemedColor
+import com.github.android.updater.design.util.resolveThemedResourceId
 
 class ProxyViewConfig(val context: Context, var proxyLine: Int) {
     private val colorSurface = context.resolveThemedColor(com.google.android.material.R.attr.colorSurface)

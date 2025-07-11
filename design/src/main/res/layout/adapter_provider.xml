@@ -3,19 +3,19 @@
     <data>
         <variable
             name="provider"
-            type="com.github.android.system.updater.core.model.Provider" />
+            type="com.github.android.updater.core.model.Provider" />
         <variable
             name="state"
-            type="com.github.android.system.updater.design.model.ProviderState" />
+            type="com.github.android.updater.design.model.ProviderState" />
         <variable
             name="currentTime"
-            type="com.github.android.system.updater.design.ui.ObservableCurrentTime" />
+            type="com.github.android.updater.design.ui.ObservableCurrentTime" />
         <variable
             name="update"
             type="android.view.View.OnClickListener" />
 
-        <import type="com.github.android.system.updater.design.util.I18nKt" />
-        <import type="com.github.android.system.updater.design.util.IntervalKt" />
+        <import type="com.github.android.updater.design.util.I18nKt" />
+        <import type="com.github.android.updater.design.util.IntervalKt" />
         <import type="android.view.View" />
     </data>
 
