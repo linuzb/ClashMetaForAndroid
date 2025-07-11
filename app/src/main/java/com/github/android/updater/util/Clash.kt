@@ -1,15 +1,15 @@
-package com.android.system.updater.util
+package com.github.android.system.updater.util
 
 import android.content.Context
 import android.content.Intent
 import android.net.VpnService
-import com.android.system.updater.common.compat.startForegroundServiceCompat
-import com.android.system.updater.common.constants.Intents
-import com.android.system.updater.common.util.intent
-import com.android.system.updater.design.store.UiStore
-import com.android.system.updater.service.ClashService
-import com.android.system.updater.service.TunService
-import com.android.system.updater.service.util.sendBroadcastSelf
+import com.github.android.system.updater.common.compat.startForegroundServiceCompat
+import com.github.android.system.updater.common.constants.Intents
+import com.github.android.system.updater.common.util.intent
+import com.github.android.system.updater.design.store.UiStore
+import com.github.android.system.updater.service.ClashService
+import com.github.android.system.updater.service.TunService
+import com.github.android.system.updater.service.util.sendBroadcastSelf
 
 fun Context.startClashService(): Intent? {
     val startTun = UiStore(this).enableVpn

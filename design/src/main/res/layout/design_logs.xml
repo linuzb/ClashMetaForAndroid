@@ -4,8 +4,8 @@
     <data>
         <variable
             name="self"
-            type="com.android.system.updater.design.LogsDesign" />
-        <import type="com.android.system.updater.design.LogsDesign.Request" />
+            type="com.github.android.system.updater.design.LogsDesign" />
+        <import type="com.github.android.system.updater.design.LogsDesign.Request" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.android.system.updater.design.view.ActivityBarLayout
+            <com.github.android.system.updater.design.view.ActivityBarLayout
                 android:id="@+id/activity_bar_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,9 +54,9 @@
                         android:padding="@dimen/toolbar_image_action_padding"
                         android:src="@drawable/ic_baseline_clear_all" />
                 </RelativeLayout>
-            </com.android.system.updater.design.view.ActivityBarLayout>
+            </com.github.android.system.updater.design.view.ActivityBarLayout>
 
-            <com.android.system.updater.design.view.ActionLabel
+            <com.github.android.system.updater.design.view.ActionLabel
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="@{() -> self.requests.offer(Request.StartLogcat.INSTANCE)}"

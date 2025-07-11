@@ -1,12 +1,12 @@
-package com.android.system.updater.design.component
+package com.github.android.system.updater.design.component
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Path
 import android.view.View
-import com.android.system.updater.common.compat.getDrawableCompat
-import com.android.system.updater.design.store.UiStore
+import com.github.android.system.updater.common.compat.getDrawableCompat
+import com.github.android.system.updater.design.store.UiStore
 
 class ProxyView(
     context: Context,

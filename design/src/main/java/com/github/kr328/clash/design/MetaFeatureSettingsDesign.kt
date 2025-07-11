@@ -1,11 +1,11 @@
-package com.android.system.updater.design
+package com.github.android.system.updater.design
 
 import android.content.Context
 import android.view.View
-import com.android.system.updater.core.model.ConfigurationOverride
-import com.android.system.updater.design.databinding.DesignSettingsMetaFeatureBinding
-import com.android.system.updater.design.preference.*
-import com.android.system.updater.design.util.*
+import com.github.android.system.updater.core.model.ConfigurationOverride
+import com.github.android.system.updater.design.databinding.DesignSettingsMetaFeatureBinding
+import com.github.android.system.updater.design.preference.*
+import com.github.android.system.updater.design.util.*
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume

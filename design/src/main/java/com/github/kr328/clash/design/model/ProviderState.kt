@@ -1,9 +1,9 @@
-package com.android.system.updater.design.model
+package com.github.android.system.updater.design.model
 
 import androidx.databinding.BaseObservable
 import androidx.databinding.Bindable
-import com.android.system.updater.core.model.Provider
-import com.android.system.updater.design.BR
+import com.github.android.system.updater.core.model.Provider
+import com.github.android.system.updater.design.BR
 
 class ProviderState(
     val provider: Provider,

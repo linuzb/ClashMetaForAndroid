@@ -1,16 +1,16 @@
-package com.android.system.updater.remote
+package com.github.android.system.updater.remote
 
 import android.app.Application
 import android.content.ComponentName
 import android.content.Context
 import android.content.ServiceConnection
 import android.os.IBinder
-import com.android.system.updater.common.log.Log
-import com.android.system.updater.common.util.intent
-import com.android.system.updater.service.RemoteService
-import com.android.system.updater.service.remote.IRemoteService
-import com.android.system.updater.service.remote.unwrap
-import com.android.system.updater.util.unbindServiceSilent
+import com.github.android.system.updater.common.log.Log
+import com.github.android.system.updater.common.util.intent
+import com.github.android.system.updater.service.RemoteService
+import com.github.android.system.updater.service.remote.IRemoteService
+import com.github.android.system.updater.service.remote.unwrap
+import com.github.android.system.updater.util.unbindServiceSilent
 import java.util.concurrent.TimeUnit
 
 class Service(private val context: Application, val crashed: () -> Unit) {

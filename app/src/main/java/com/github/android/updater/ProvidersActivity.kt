@@ -1,15 +1,15 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
-import com.android.system.updater.common.util.intent
-import com.android.system.updater.common.util.ticker
-import com.android.system.updater.design.ProvidersDesign
-import com.android.system.updater.design.util.showExceptionToast
-import com.android.system.updater.util.withClash
+import com.github.android.system.updater.common.util.intent
+import com.github.android.system.updater.common.util.ticker
+import com.github.android.system.updater.design.ProvidersDesign
+import com.github.android.system.updater.design.util.showExceptionToast
+import com.github.android.system.updater.util.withClash
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.selects.select
 import java.util.concurrent.TimeUnit
-import com.android.system.updater.design.R
+import com.github.android.system.updater.design.R
 
 class ProvidersActivity : BaseActivity<ProvidersDesign>() {
     override suspend fun main() {

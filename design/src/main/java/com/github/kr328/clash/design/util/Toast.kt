@@ -1,8 +1,8 @@
-package com.android.system.updater.design.util
+package com.github.android.system.updater.design.util
 
-import com.android.system.updater.design.Design
-import com.android.system.updater.design.R
-import com.android.system.updater.design.ui.ToastDuration
+import com.github.android.system.updater.design.Design
+import com.github.android.system.updater.design.R
+import com.github.android.system.updater.design.ui.ToastDuration
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 suspend fun Design<*>.showExceptionToast(message: CharSequence) {

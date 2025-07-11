@@ -1,4 +1,4 @@
-package com.android.system.updater.service.remote
+package com.github.android.system.updater.service.remote
 
 import com.github.kr328.kaidl.BinderInterface
 

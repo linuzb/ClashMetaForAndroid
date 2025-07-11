@@ -1,11 +1,11 @@
-package com.android.system.updater.design.adapter
+package com.github.android.system.updater.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.updater.core.model.LogMessage
-import com.android.system.updater.design.databinding.AdapterLogMessageBinding
-import com.android.system.updater.design.util.layoutInflater
+import com.github.android.system.updater.core.model.LogMessage
+import com.github.android.system.updater.design.databinding.AdapterLogMessageBinding
+import com.github.android.system.updater.design.util.layoutInflater
 
 class LogMessageAdapter(
     private val context: Context,

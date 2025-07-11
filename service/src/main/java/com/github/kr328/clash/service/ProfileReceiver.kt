@@ -1,4 +1,4 @@
-package com.android.system.updater.service
+package com.github.android.system.updater.service
 
 import android.app.AlarmManager
 import android.app.PendingIntent
@@ -6,17 +6,17 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.getSystemService
-import com.android.system.updater.common.Global
-import com.android.system.updater.common.compat.pendingIntentFlags
-import com.android.system.updater.common.compat.startForegroundServiceCompat
-import com.android.system.updater.common.constants.Intents
-import com.android.system.updater.common.log.Log
-import com.android.system.updater.common.util.componentName
-import com.android.system.updater.common.util.setUUID
-import com.android.system.updater.service.data.Imported
-import com.android.system.updater.service.data.ImportedDao
-import com.android.system.updater.service.model.Profile
-import com.android.system.updater.service.util.importedDir
+import com.github.android.system.updater.common.Global
+import com.github.android.system.updater.common.compat.pendingIntentFlags
+import com.github.android.system.updater.common.compat.startForegroundServiceCompat
+import com.github.android.system.updater.common.constants.Intents
+import com.github.android.system.updater.common.log.Log
+import com.github.android.system.updater.common.util.componentName
+import com.github.android.system.updater.common.util.setUUID
+import com.github.android.system.updater.service.data.Imported
+import com.github.android.system.updater.service.data.ImportedDao
+import com.github.android.system.updater.service.model.Profile
+import com.github.android.system.updater.service.util.importedDir
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock

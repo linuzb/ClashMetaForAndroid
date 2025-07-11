@@ -1,8 +1,8 @@
-package com.android.system.updater.service
+package com.github.android.system.updater.service
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.android.system.updater.common.constants.Authorities
+import com.github.android.system.updater.common.constants.Authorities
 import rikka.preference.MultiProcessPreference
 import rikka.preference.PreferenceProvider
 

@@ -1,4 +1,4 @@
-package com.android.system.updater.log
+package com.github.android.system.updater.log
 
 object SystemLogcat {
     private val command = arrayOf(

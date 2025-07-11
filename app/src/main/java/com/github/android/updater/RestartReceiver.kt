@@ -1,10 +1,10 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.android.system.updater.service.StatusProvider
-import com.android.system.updater.util.startClashService
+import com.github.android.system.updater.service.StatusProvider
+import com.github.android.system.updater.util.startClashService
 
 class RestartReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

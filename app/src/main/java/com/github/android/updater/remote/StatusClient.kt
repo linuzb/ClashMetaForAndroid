@@ -1,10 +1,10 @@
-package com.android.system.updater.remote
+package com.github.android.system.updater.remote
 
 import android.content.Context
 import android.net.Uri
-import com.android.system.updater.common.constants.Authorities
-import com.android.system.updater.common.log.Log
-import com.android.system.updater.service.StatusProvider
+import com.github.android.system.updater.common.constants.Authorities
+import com.github.android.system.updater.common.log.Log
+import com.github.android.system.updater.service.StatusProvider
 
 class StatusClient(private val context: Context) {
     private val uri: Uri

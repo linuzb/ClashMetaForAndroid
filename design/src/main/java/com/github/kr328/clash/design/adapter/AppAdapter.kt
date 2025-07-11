@@ -1,12 +1,12 @@
-package com.android.system.updater.design.adapter
+package com.github.android.system.updater.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.updater.design.databinding.AdapterAppBinding
-import com.android.system.updater.design.model.AppInfo
-import com.android.system.updater.design.util.layoutInflater
-import com.android.system.updater.design.util.root
+import com.github.android.system.updater.design.databinding.AdapterAppBinding
+import com.github.android.system.updater.design.model.AppInfo
+import com.github.android.system.updater.design.util.layoutInflater
+import com.github.android.system.updater.design.util.root
 
 class AppAdapter(
     private val context: Context,

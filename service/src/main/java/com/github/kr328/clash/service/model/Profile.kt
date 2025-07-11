@@ -1,11 +1,11 @@
 @file:UseSerializers(UUIDSerializer::class)
 
-package com.android.system.updater.service.model
+package com.github.android.system.updater.service.model
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.android.system.updater.core.util.Parcelizer
-import com.android.system.updater.service.util.UUIDSerializer
+import com.github.android.system.updater.core.util.Parcelizer
+import com.github.android.system.updater.service.util.UUIDSerializer
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.UseSerializers
 import java.util.*

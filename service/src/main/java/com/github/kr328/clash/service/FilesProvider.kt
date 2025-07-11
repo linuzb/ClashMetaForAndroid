@@ -1,4 +1,4 @@
-package com.android.system.updater.service
+package com.github.android.system.updater.service
 
 import android.database.Cursor
 import android.database.MatrixCursor
@@ -7,8 +7,8 @@ import android.os.CancellationSignal
 import android.os.ParcelFileDescriptor
 import android.provider.DocumentsContract.Root
 import android.provider.DocumentsProvider
-import com.android.system.updater.common.util.PatternFileName
-import com.android.system.updater.service.document.*
+import com.github.android.system.updater.common.util.PatternFileName
+import com.github.android.system.updater.service.document.*
 import kotlinx.coroutines.runBlocking
 import java.io.FileNotFoundException
 import android.provider.DocumentsContract.Document as D

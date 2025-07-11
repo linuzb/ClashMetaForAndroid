@@ -1,4 +1,4 @@
-package com.android.system.updater.util
+package com.github.android.system.updater.util
 
 import android.content.Context
 import android.content.ServiceConnection

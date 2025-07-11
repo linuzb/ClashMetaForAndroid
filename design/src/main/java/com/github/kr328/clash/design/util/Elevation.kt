@@ -1,10 +1,10 @@
-package com.android.system.updater.design.util
+package com.github.android.system.updater.design.util
 
 import android.animation.ValueAnimator
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.updater.design.R
-import com.android.system.updater.design.view.ActivityBarLayout
-import com.android.system.updater.design.view.ObservableScrollView
+import com.github.android.system.updater.design.R
+import com.github.android.system.updater.design.view.ActivityBarLayout
+import com.github.android.system.updater.design.view.ObservableScrollView
 
 private class AppBarElevationController(
     private val activityBar: ActivityBarLayout

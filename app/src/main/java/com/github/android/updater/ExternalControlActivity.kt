@@ -1,26 +1,26 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import com.android.system.updater.common.constants.Intents
-import com.android.system.updater.common.util.intent
-import com.android.system.updater.common.util.setUUID
-import com.android.system.updater.design.MainDesign
-import com.android.system.updater.design.ui.ToastDuration
-import com.android.system.updater.remote.Remote
-import com.android.system.updater.remote.StatusClient
-import com.android.system.updater.service.model.Profile
-import com.android.system.updater.util.startClashService
-import com.android.system.updater.util.stopClashService
-import com.android.system.updater.util.withProfile
+import com.github.android.system.updater.common.constants.Intents
+import com.github.android.system.updater.common.util.intent
+import com.github.android.system.updater.common.util.setUUID
+import com.github.android.system.updater.design.MainDesign
+import com.github.android.system.updater.design.ui.ToastDuration
+import com.github.android.system.updater.remote.Remote
+import com.github.android.system.updater.remote.StatusClient
+import com.github.android.system.updater.service.model.Profile
+import com.github.android.system.updater.util.startClashService
+import com.github.android.system.updater.util.stopClashService
+import com.github.android.system.updater.util.withProfile
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
 import java.util.*
-import com.android.system.updater.design.R
+import com.github.android.system.updater.design.R
 
 class ExternalControlActivity : Activity(), CoroutineScope by MainScope() {
     override fun onCreate(savedInstanceState: Bundle?) {

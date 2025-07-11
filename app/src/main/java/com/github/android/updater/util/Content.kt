@@ -1,4 +1,4 @@
-package com.android.system.updater.util
+package com.github.android.system.updater.util
 
 import android.content.ContentResolver
 import android.net.Uri

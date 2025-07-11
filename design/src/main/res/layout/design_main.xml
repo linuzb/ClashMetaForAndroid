@@ -4,7 +4,7 @@
     <data>
         <variable
             name="self"
-            type="com.android.system.updater.design.MainDesign" />
+            type="com.github.android.system.updater.design.MainDesign" />
         <variable
             name="clashRunning"
             type="boolean" />
@@ -28,7 +28,7 @@
             type="boolean" />
 
         <import type="android.view.View" />
-        <import type="com.android.system.updater.design.MainDesign.Request" />
+        <import type="com.github.android.system.updater.design.MainDesign.Request" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -77,7 +77,7 @@
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
                 </LinearLayout>
 
-                <com.android.system.updater.design.view.LargeActionCard
+                <com.github.android.system.updater.design.view.LargeActionCard
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="@dimen/main_card_margin_vertical"
@@ -88,7 +88,7 @@
                     app:subtext="@{clashRunning ? @string/format_traffic_forwarded(forwarded) : @string/tap_to_start}"
                     app:text="@{clashRunning ? @string/running : @string/stopped}" />
 
-                <com.android.system.updater.design.view.LargeActionCard
+                <com.github.android.system.updater.design.view.LargeActionCard
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="@dimen/main_card_margin_vertical"
@@ -98,7 +98,7 @@
                     app:subtext="@{mode}"
                     app:text="@string/proxy" />
 
-                <com.android.system.updater.design.view.LargeActionCard
+                <com.github.android.system.updater.design.view.LargeActionCard
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="@dimen/main_card_margin_vertical"
@@ -107,7 +107,7 @@
                     app:subtext="@{profileName != null ? @string/format_profile_activated(profileName) : @string/not_selected}"
                     app:text="@string/profile" />
 
-                <com.android.system.updater.design.view.LargeActionLabel
+                <com.github.android.system.updater.design.view.LargeActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginVertical="@dimen/main_label_margin_vertical"
@@ -116,7 +116,7 @@
                     app:icon="@drawable/ic_baseline_swap_vertical_circle"
                     app:text="@string/providers" />
 
-                <com.android.system.updater.design.view.LargeActionLabel
+                <com.github.android.system.updater.design.view.LargeActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="@dimen/main_label_margin_vertical"
@@ -124,7 +124,7 @@
                     app:icon="@drawable/ic_baseline_assignment"
                     app:text="@string/logs" />
 
-                <com.android.system.updater.design.view.LargeActionLabel
+                <com.github.android.system.updater.design.view.LargeActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="@dimen/main_label_margin_vertical"
@@ -132,7 +132,7 @@
                     app:icon="@drawable/ic_baseline_settings"
                     app:text="@string/settings" />
 
-                <com.android.system.updater.design.view.LargeActionLabel
+                <com.github.android.system.updater.design.view.LargeActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="@dimen/main_label_margin_vertical"
@@ -140,7 +140,7 @@
                     app:icon="@drawable/ic_baseline_help_center"
                     app:text="@string/help" />
 
-                <com.android.system.updater.design.view.LargeActionLabel
+                <com.github.android.system.updater.design.view.LargeActionLabel
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="@dimen/main_label_margin_vertical"

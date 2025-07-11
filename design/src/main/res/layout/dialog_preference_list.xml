@@ -3,7 +3,7 @@
     <data>
         <variable
             name="surface"
-            type="com.android.system.updater.design.ui.Surface" />
+            type="com.github.android.system.updater.design.ui.Surface" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout

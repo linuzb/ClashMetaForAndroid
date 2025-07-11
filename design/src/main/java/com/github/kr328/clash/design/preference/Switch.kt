@@ -1,12 +1,12 @@
-package com.android.system.updater.design.preference
+package com.github.android.system.updater.design.preference
 
 import android.graphics.drawable.Drawable
 import android.view.View
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.android.system.updater.common.compat.getDrawableCompat
-import com.android.system.updater.design.databinding.PreferenceSwitchBinding
-import com.android.system.updater.design.util.layoutInflater
+import com.github.android.system.updater.common.compat.getDrawableCompat
+import com.github.android.system.updater.design.databinding.PreferenceSwitchBinding
+import com.github.android.system.updater.design.util.layoutInflater
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

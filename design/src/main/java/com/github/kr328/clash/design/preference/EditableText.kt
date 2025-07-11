@@ -1,9 +1,9 @@
-package com.android.system.updater.design.preference
+package com.github.android.system.updater.design.preference
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.android.system.updater.design.R
-import com.android.system.updater.design.dialog.requestModelTextInput
+import com.github.android.system.updater.design.R
+import com.github.android.system.updater.design.dialog.requestModelTextInput
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -1,18 +1,18 @@
-package com.android.system.updater.design
+package com.github.android.system.updater.design
 
 import android.content.Context
 import android.os.Build
 import android.view.View
-import com.android.system.updater.design.databinding.DesignSettingsCommonBinding
-import com.android.system.updater.design.preference.*
-import com.android.system.updater.design.store.UiStore
-import com.android.system.updater.design.ui.ToastDuration
-import com.android.system.updater.design.util.applyFrom
-import com.android.system.updater.design.util.bindAppBarElevation
-import com.android.system.updater.design.util.layoutInflater
-import com.android.system.updater.design.util.root
-import com.android.system.updater.service.model.AccessControlMode
-import com.android.system.updater.service.store.ServiceStore
+import com.github.android.system.updater.design.databinding.DesignSettingsCommonBinding
+import com.github.android.system.updater.design.preference.*
+import com.github.android.system.updater.design.store.UiStore
+import com.github.android.system.updater.design.ui.ToastDuration
+import com.github.android.system.updater.design.util.applyFrom
+import com.github.android.system.updater.design.util.bindAppBarElevation
+import com.github.android.system.updater.design.util.layoutInflater
+import com.github.android.system.updater.design.util.root
+import com.github.android.system.updater.service.model.AccessControlMode
+import com.github.android.system.updater.service.store.ServiceStore
 import kotlinx.coroutines.launch
 
 class NetworkSettingsDesign(

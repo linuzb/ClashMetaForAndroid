@@ -1,11 +1,11 @@
-package com.android.system.updater.design
+package com.github.android.system.updater.design
 
 import android.content.Context
 import android.view.View
-import com.android.system.updater.core.model.Provider
-import com.android.system.updater.design.adapter.ProviderAdapter
-import com.android.system.updater.design.databinding.DesignProvidersBinding
-import com.android.system.updater.design.util.*
+import com.github.android.system.updater.core.model.Provider
+import com.github.android.system.updater.design.adapter.ProviderAdapter
+import com.github.android.system.updater.design.databinding.DesignProvidersBinding
+import com.github.android.system.updater.design.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

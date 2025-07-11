@@ -1,12 +1,12 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
 import android.content.ComponentName
 import android.content.pm.PackageManager
-import com.android.system.updater.common.util.componentName
-import com.android.system.updater.design.AppSettingsDesign
-import com.android.system.updater.design.model.Behavior
-import com.android.system.updater.service.store.ServiceStore
-import com.android.system.updater.util.ApplicationObserver
+import com.github.android.system.updater.common.util.componentName
+import com.github.android.system.updater.design.AppSettingsDesign
+import com.github.android.system.updater.design.model.Behavior
+import com.github.android.system.updater.service.store.ServiceStore
+import com.github.android.system.updater.util.ApplicationObserver
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 

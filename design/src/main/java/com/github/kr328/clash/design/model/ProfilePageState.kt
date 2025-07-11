@@ -1,4 +1,4 @@
-package com.android.system.updater.design.model
+package com.github.android.system.updater.design.model
 
 class ProfilePageState {
     var allUpdating = false

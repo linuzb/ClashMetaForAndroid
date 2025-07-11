@@ -1,9 +1,9 @@
-package com.android.system.updater.core.model
+package com.github.android.system.updater.core.model
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.android.system.updater.common.util.createListFromParcelSlice
-import com.android.system.updater.common.util.writeToParcelSlice
+import com.github.android.system.updater.common.util.createListFromParcelSlice
+import com.github.android.system.updater.common.util.writeToParcelSlice
 
 class ProviderList(data: List<Provider>) : List<Provider> by data, Parcelable {
     constructor(parcel: Parcel) : this(Provider.createListFromParcelSlice(parcel, 0, 20))

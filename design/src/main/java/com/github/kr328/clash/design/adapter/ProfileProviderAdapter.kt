@@ -1,11 +1,11 @@
-package com.android.system.updater.design.adapter
+package com.github.android.system.updater.design.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.system.updater.design.databinding.AdapterProfileProviderBinding
-import com.android.system.updater.design.model.ProfileProvider
-import com.android.system.updater.design.util.layoutInflater
+import com.github.android.system.updater.design.databinding.AdapterProfileProviderBinding
+import com.github.android.system.updater.design.model.ProfileProvider
+import com.github.android.system.updater.design.util.layoutInflater
 
 class ProfileProviderAdapter(
     private val context: Context,

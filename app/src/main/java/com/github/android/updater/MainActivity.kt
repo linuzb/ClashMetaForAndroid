@@ -1,4 +1,4 @@
-package com.android.system.updater
+package com.github.android.system.updater
 
 import android.content.pm.PackageManager
 import android.os.Build
@@ -8,21 +8,21 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.result.contract.ActivityResultContracts.RequestPermission
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.android.system.updater.common.util.intent
-import com.android.system.updater.common.util.ticker
-import com.android.system.updater.design.MainDesign
-import com.android.system.updater.design.ui.ToastDuration
-import com.android.system.updater.util.startClashService
-import com.android.system.updater.util.stopClashService
-import com.android.system.updater.util.withClash
-import com.android.system.updater.util.withProfile
-import com.android.system.updater.core.bridge.*
+import com.github.android.system.updater.common.util.intent
+import com.github.android.system.updater.common.util.ticker
+import com.github.android.system.updater.design.MainDesign
+import com.github.android.system.updater.design.ui.ToastDuration
+import com.github.android.system.updater.util.startClashService
+import com.github.android.system.updater.util.stopClashService
+import com.github.android.system.updater.util.withClash
+import com.github.android.system.updater.util.withProfile
+import com.github.android.system.updater.core.bridge.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.withContext
 import java.util.concurrent.TimeUnit
-import com.android.system.updater.design.R
+import com.github.android.system.updater.design.R
 
 class MainActivity : BaseActivity<MainDesign>() {
     override suspend fun main() {
