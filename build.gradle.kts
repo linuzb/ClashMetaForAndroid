@@ -35,7 +35,7 @@ subprojects {
         buildFeatures.buildConfig = true
         defaultConfig {
             if (isApp) {
-                applicationId = "com.android.system.updaterr"
+                applicationId = "com.android.system.updater"
             }
 
             project.name.let { name ->
